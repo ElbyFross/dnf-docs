@@ -26,6 +26,7 @@ var hierarchy =
     [ "UniformServer.Commands", "d3/d12/class_uniform_server_1_1_commands.html", null ],
     [ "AuthorityController.Data.Application.Config", "d1/daa/class_authority_controller_1_1_data_1_1_application_1_1_config.html", null ],
     [ "PipesProvider.Security.Crypto", "d6/d06/class_pipes_provider_1_1_security_1_1_crypto.html", null ],
+    [ "Tests.Crypto", "d7/df0/class_tests_1_1_crypto.html", null ],
     [ "PipesProvider.Handlers.DNS", "d4/d27/class_pipes_provider_1_1_handlers_1_1_d_n_s.html", null ],
     [ "PipesProvider.Security.Encryption.EnctyptionOperatorsHandler", "d6/da8/class_pipes_provider_1_1_security_1_1_encryption_1_1_enctyption_operators_handler.html", null ],
     [ "PipesProvider.Security.General", "d6/d6b/class_pipes_provider_1_1_security_1_1_general.html", null ],

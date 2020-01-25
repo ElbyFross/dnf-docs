@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.14"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Doloro Networking Framework: Doloro Networking Framework</title>
+<title>Doloro Networking Framework</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -28,12 +28,10 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
-  <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Doloro Networking Framework
-   &#160;<span id="projectnumber">1.0.3</span>
-   </div>
-   <div id="projectbrief">Easy | Fast | Protected</div>
-  </td>
+  <td id="projectlogo"><img alt="Logo" src="../../dnf logo.png"/></td>
+    <td style="padding-left: 0.5em;">
+    <div id="projectbrief">(v1.0.0) Easy | Fast | Protected</div>
+    </td>
  </tr>
  </tbody>
 </table>
@@ -92,21 +90,36 @@ $(document).ready(function(){initNavTree('d0/d9c/md__d_1__work__git_hub_doloro-n
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p>It's the framework that provide fast and easy way for creation of client and server applications powered by .Net Framework.</p>
+<h2>Documetation</h2>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadCenter">Format  </th><th class="markdownTableHeadNone" colspan="2">Description   </th></tr>
+<tr class="markdownTableBody" class="markdownTableRowOdd">
+<td class="markdownTableBodyCenter">Wiki  </td><td class="markdownTableBodyNone">Contains a description of logic processes into the framework.  </td><td class="markdownTableBodyCenter"><a href="https://github.com/ElbyFross/doloro-networking-framework/wiki">Link</a>   </td></tr>
+<tr class="markdownTableBody" class="markdownTableRowEven">
+<td class="markdownTableBodyCenter">API  </td><td class="markdownTableBodyNone">An online documentation with API overview.  </td><td class="markdownTableBodyCenter"><a href="https://elbyfross.github.io/dnf-docs/">Link</a>   </td></tr>
+<tr class="markdownTableBody" class="markdownTableRowOdd">
+<td class="markdownTableBodyCenter">Local  </td><td class="markdownTableBodyNone">A repository with generated documentation as could be used offline.  </td><td class="markdownTableBodyCenter"><a href="https://github.com/ElbyFross/dnf-docs">Link</a>   </td></tr>
+</table>
+<h2>Support</h2>
+<p>The <b>DNF</b> is an open source project and it's require your support.</p>
+<p>The less but still very important that you could to do is considering of setting a <b>Star</b> and starting following the project. Your activity and interest can be used as proof of product relevance during negotiation with big sponsors. Thank you in advance!</p>
+<p>If you want to make a bigger contribution you may find other options and goals description by the following <a href="https://github.com/ElbyFross/doloro-networking-framework/wiki/Support-of-the-initiative">link</a>.</p>
 <h1>Scalability</h1>
 <h3>Routing tables</h3>
-<p>Control routing between servers using easy to use <code>Routing tables</code> that include built-in filtering powered by easy to understand regular expressions.</p>
+<p>Control routing between servers using easy to use <a href="https://github.com/ElbyFross/doloro-networking-framework/wiki/RoutingTable">Routing tables</a> those include built-in filtering features provided with easy to understand regular expressions.</p>
 <h3>Isolated high end logic</h3>
-<p>Create your own high-end server logic to control complex custom network without demand to deep knowledge of networking backend.</p>
+<p>Create your own high-end server logic to control complex custom network without demands to deep knowledge of networking backend.</p>
 <h3>Modifiable pipeline of networking logic</h3>
-<p>Framwork provides a list of ready to use handlers that fully controll transmisssion, but you always able to create your own networking logic on every step to covering your own purposes.</p>
+<p>Framework provides a list of ready to use handlers that fully control transmission, but you always able to create your own networking logic on every step to covering your own purposes.</p>
 <p><code>(Server\Clent loops =&gt; Connection handler =&gt; Transmisssion handlers =&gt; Data handlers)</code></p>
 <h1>Security</h1>
-<h3>RSA encryption of transmission</h3>
-<p>Framework provide full API and automatic controllers for providing secure transmission of any your message. That simplify using and modification of system.</p>
+<h3>Encryption operators</h3>
+<p>The framework has a realy flexible encryption archtecture that allow you to implement your own encryption algorithms.</p>
 <h3>Named Pipes</h3>
 <p>Transmission powered by named pipes that significant improve security on NT systems.</p>
 <h3>Authority Controller</h3>
-<p>Addon that provides possibility to create users, control them's rights. Implements tokens based rights control.</p>
+<p>An addon that provides possibility to create users, control them's rights. Implements tokens based rights control system.</p>
 <p>Contains built-in queries:</p><ul>
 <li>Logon</li>
 <li>Logoff</li>
@@ -117,10 +130,9 @@ $(document).ready(function(){initNavTree('d0/d9c/md__d_1__work__git_hub_doloro-n
 <li>User ban</li>
 </ul>
 <h1>Simplicity</h1>
-<h3>Auto RSA encryption</h3>
-<p><a href="../.././Core/PipesProvider/Security/">Dirctory</a></p>
-<p>Client able automaticly recive a public RSA's key from server and encode message beffore transmisssion. Append your client's RSA's public key in <code>pk</code> propery in query and server would auto encrypt answer.</p>
-<p>Just don't forget to set <code>RSAEncryption</code> field to <code>true</code> in client's <code>RoutingTable</code>'s <code>Instruction</code>.</p>
+<h3>Auto encryption</h3>
+<p><a href="https://github.com/ElbyFross/doloro-networking-framework/wiki/Encryption">Article</a> **|** <a href="../.././Core/PipesProvider/Security/">Source</a></p>
+<p>A client and server are able to automaticly exchange with public asymmetric keys to each other. During using standard handler all what you need it's just configurate and encryption params at your <a href="https://github.com/ElbyFross/doloro-networking-framework/wiki/RoutingTable">RoutingTable</a> and the line transmission will auto encrypted.</p>
 <h3>Auto control of transmission</h3>
 <p>Built-in networking handlers control logic loop of transmission without your involving.</p><ol type="1">
 <li>Create query</li>
@@ -128,23 +140,25 @@ $(document).ready(function(){initNavTree('d0/d9c/md__d_1__work__git_hub_doloro-n
 <li>Enque query to transmission line.</li>
 <li>Recive answer to your data handler in case of duplex query.</li>
 </ol>
+<p><b>See also:</b> [Example]() | <a href="https://github.com/ElbyFross/doloro-networking-framework/wiki/Query">Wiki:Query</a> | <a href="https://github.com/ElbyFross/doloro-networking-framework/wiki/Transmission-controllers">Wiki:TransmissionLine</a></p>
 <h3>Ready to use servers</h3>
-<p><a href="../.././Examples/Servers/">Dirctory</a></p><ul>
-<li>Session provider - provide tokens, control users profiles, provide complex hierarchy.</li>
-<li>Queries server - relay server that would receive queries and redirect to target servers by using <code>Routing tables</code>.</li>
+<p><a href="../.././Examples/Servers/">Source</a></p>
+<ul>
+<li><a href="https://github.com/ElbyFross/doloro-networking-framework/wiki/SessionProvider">Session provider</a> - provide tokens, control users profiles, provide complex hierarchy.</li>
+<li><a href="https://github.com/ElbyFross/doloro-networking-framework/wiki/QueriesServer">Queries server</a> - relay server that would receive queries and redirect to target servers by using <code>Routing tables</code>.</li>
 </ul>
-<h3>LSA configurator</h3>
-<p><a href="../.././Core/PipesProvider/Security/">Dirctory</a></p>
+<h3>LSA configurator (Experemental)</h3>
+<p><a href="https://github.com/ElbyFross/doloro-networking-framework/wiki/General-security#lsa-modification">Article</a> **|** <a href="../.././Core/PipesProvider/Security/">Source</a></p>
 <p>Allows to configure your OS in one click relative to required rights.</p>
 <h3>Server's built-in transmission algorithms</h3>
-<p><a href="../.././Core/PipesProvider/Server/TransmisssionControllers/">Dirctory</a></p>
+<p><a href="https://github.com/ElbyFross/doloro-networking-framework/wiki/Transmission-controllers">Article</a> **|** <a href="../.././Core/PipesProvider/Server/TransmisssionControllers/">Source</a></p>
 <ul>
 <li>Client to Server</li>
 <li>Server to Client</li>
-<li>Broadcasting</li>
+<li>Broadcast</li>
 </ul>
 <h3>Client's built-in transmission algorithms</h3>
-<p><a href="../.././Core/UniformClient/Providers/PipesProvider/BaseClientPPHandlers.cs">Dirctory</a></p>
+<p><a href="https://github.com/ElbyFross/doloro-networking-framework/wiki/TransmissionLine">Article</a> **|** <a href="../.././Core/UniformClient/Providers/PipesProvider/BaseClientPPHandlers.cs">Source</a></p>
 <ul>
 <li>Duplex query</li>
 <li>Input query</li>

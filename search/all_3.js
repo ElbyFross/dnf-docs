@@ -27,7 +27,7 @@ var searchData=
   ['content',['Content',['../dc/d0f/class_uniform_queries_1_1_query.html#a37d7610db7bd337ea886b22e1277b540',1,'UniformQueries.Query.Content()'],['../dc/d0f/class_uniform_queries_1_1_query.html#ab28d393177506bdce76560b06496bbd7',1,'UniformQueries.Query.content()']]],
   ['contentencrytpionoperatorcode',['contentEncrytpionOperatorCode',['../db/d7d/class_uniform_queries_1_1_query_1_1_encryption_info.html#ad14dab19dce4cde0a2d3d6ce6e618b8c',1,'UniformQueries::Query::EncryptionInfo']]],
   ['copy',['Copy',['../d1/d9e/struct_pipes_provider_1_1_networking_1_1_query_container.html#a93be6e7b8eb21d7543f2ee31f82a72d2',1,'PipesProvider::Networking::QueryContainer']]],
-  ['crypto',['Crypto',['../d6/d06/class_pipes_provider_1_1_security_1_1_crypto.html',1,'PipesProvider::Security']]],
+  ['crypto',['Crypto',['../d6/d06/class_pipes_provider_1_1_security_1_1_crypto.html',1,'PipesProvider.Security.Crypto'],['../d7/df0/class_tests_1_1_crypto.html',1,'Tests.Crypto']]],
   ['cryptoprovider',['CryptoProvider',['../db/d2a/class_pipes_provider_1_1_security_1_1_encryption_1_1_operators_1_1_r_s_a_encryption_operator.html#ac68e0032b73d75490f572a9e77ec64c8',1,'PipesProvider::Security::Encryption::Operators::RSAEncryptionOperator']]],
   ['current',['Current',['../d6/d4b/class_authority_controller_1_1_session.html#a20d84345a3843b7a1b340887bb961f7c',1,'AuthorityController::Session']]],
   ['customargsreactor',['CustomArgsReactor',['../d8/d17/class_session_provider_1_1_server.html#a87a10b2d098231f098ac9175d4b1f996',1,'SessionProvider::Server']]],

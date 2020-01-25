@@ -23,5 +23,5 @@ var searchData=
   ['duplexbackwardcallbacks',['DuplexBackwardCallbacks',['../d4/deb/class_uniform_client_1_1_base_client.html#a52dacc1af85cbab035a159e64e1417a0',1,'UniformClient::BaseClient']]],
   ['duration',['Duration',['../d0/dfe/class_authority_controller_1_1_data_1_1_personal_1_1_ban_information.html#a127a28a1db99b43e2540f18949921a7d',1,'AuthorityController.Data.Personal.BanInformation.Duration()'],['../d0/dfe/class_authority_controller_1_1_data_1_1_personal_1_1_ban_information.html#a68241c910c08c5659c1fcbc86e9ee8a8',1,'AuthorityController.Data.Personal.BanInformation.duration()']]],
   ['durationint',['DurationInt',['../d0/dfe/class_authority_controller_1_1_data_1_1_personal_1_1_ban_information.html#ac4ff6168fd023122851068927068178f',1,'AuthorityController::Data::Personal::BanInformation']]],
-  ['doloro_20networking_20framework',['Doloro Networking Framework',['../d2/ddb/md_doloro-networking-framework__r_e_a_d_m_e.html',1,'']]]
+  ['doloro_20networking_20framework',['Doloro Networking Framework',['../d0/d9c/md__d_1__work__git_hub_doloro-networking-framework__r_e_a_d_m_e.html',1,'']]]
 ];
