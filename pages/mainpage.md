@@ -2,7 +2,7 @@
 # Welcome to the Doloro Networking Framework!
 Thank you for deciding to use the **DNF** at your project!
 
-It's the framework that provides a fast and easy way for creation of client and server applications powered by **.Net** Framework.
+It's the framework that provides a fast and easy way for creation of client and server applications powered by .NET Framework.
 
 ***
 
