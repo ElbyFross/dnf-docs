@@ -1,4 +1,4 @@
-\page FAQ
+\page faq F.A.Q.
 
 # Welcome to the F.A.Q. block
 I hope here you find answers for your questions. In case if some common questions not covered don't be shy to contact me via [LinkedIn](https://www.linkedin.com/in/podshyvalov/).
