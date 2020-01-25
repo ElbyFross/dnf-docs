@@ -1,7 +1,7 @@
 var class_authority_controller_1_1_a_p_i_1_1_tokens =
 [
-    [ "AuthorizeNewGuestToken", "d7/daa/class_authority_controller_1_1_a_p_i_1_1_tokens.html#a8b153378b97af2634e8dab9ff1fa48a5", null ],
-    [ "AuthorizeNewGuestToken", "d7/daa/class_authority_controller_1_1_a_p_i_1_1_tokens.html#a0ba1c2d69ffbc73d78b7b16735f7fb5a", null ],
-    [ "IsHasEnoughRigths", "d7/daa/class_authority_controller_1_1_a_p_i_1_1_tokens.html#a3077a786044bdd530ad50dbd615f8beb", null ],
-    [ "IsHasEnoughRigths", "d7/daa/class_authority_controller_1_1_a_p_i_1_1_tokens.html#ab1d580a971a86c8e5b3c7c189aa65381", null ]
+    [ "AuthorizeNewGuestToken", "d7/daa/class_authority_controller_1_1_a_p_i_1_1_tokens.html#a1ce1e0ad271483413331e2aec74fd98e", null ],
+    [ "AuthorizeNewGuestToken", "d7/daa/class_authority_controller_1_1_a_p_i_1_1_tokens.html#a314f7daa5dc69f422174479e48c11d54", null ],
+    [ "IsHasEnoughRigths", "d7/daa/class_authority_controller_1_1_a_p_i_1_1_tokens.html#a5b5d3ce957b4abd722906e4c7c67a439", null ],
+    [ "IsHasEnoughRigths", "d7/daa/class_authority_controller_1_1_a_p_i_1_1_tokens.html#a90a5463500b853fefaa2564a0213579c", null ]
 ];

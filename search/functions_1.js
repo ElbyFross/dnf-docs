@@ -1,4 +1,8 @@
 var searchData=
 [
-  ['basecommands',['BaseCommands',['../d3/d12/class_uniform_server_1_1_commands.html#ad1bac97da40d03e97f9b5fe7ed152ef9',1,'UniformServer::Commands']]]
+  ['basecommands',['BaseCommands',['../d3/d12/class_uniform_server_1_1_commands.html#ad1bac97da40d03e97f9b5fe7ed152ef9',1,'UniformServer::Commands']]],
+  ['baseservertransmissioncontroller',['BaseServerTransmissionController',['../d0/d5b/class_pipes_provider_1_1_server_1_1_transmission_controllers_1_1_base_server_transmission_controller.html#acd8c41b70a2f0000c0e0b24e3b37ba07',1,'PipesProvider.Server.TransmissionControllers.BaseServerTransmissionController.BaseServerTransmissionController()'],['../d0/d5b/class_pipes_provider_1_1_server_1_1_transmission_controllers_1_1_base_server_transmission_controller.html#a62325561a75a79b4b2cd1cb8575276a6',1,'PipesProvider.Server.TransmissionControllers.BaseServerTransmissionController.BaseServerTransmissionController(IAsyncResult connectionMarker, Action&lt; BaseServerTransmissionController &gt; connectionCallback, NamedPipeServerStream pipe, string pipeName)']]],
+  ['broadcastasync',['BroadcastAsync',['../d4/d27/class_pipes_provider_1_1_handlers_1_1_d_n_s.html#affccc11b45c0bff9aeab2cd5129e9187',1,'PipesProvider::Handlers::DNS']]],
+  ['broadcastserver',['BroadcastServer',['../d4/d08/class_uniform_server_1_1_standard_1_1_broadcast_server.html#abebf5f0f3f669f1fd158ea2d2dd2897c',1,'UniformServer::Standard::BroadcastServer']]],
+  ['broadcasttransmissioncontroller',['BroadcastTransmissionController',['../db/da0/class_pipes_provider_1_1_server_1_1_transmission_controllers_1_1_broadcast_transmission_controller.html#a847be71d175c553a8efac7f8492a411a',1,'PipesProvider::Server::TransmissionControllers::BroadcastTransmissionController']]]
 ];

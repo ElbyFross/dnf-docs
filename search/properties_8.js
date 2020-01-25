@@ -1,6 +1,16 @@
 var searchData=
 [
-  ['lastquery',['LastQuery',['../da/d0e/class_pipes_provider_1_1_client_1_1_transmission_line.html#ac4b9855c5d9aa2a9f6289c2eb43f6996',1,'PipesProvider::Client::TransmissionLine']]],
-  ['logonfinished',['LogonFinished',['../da/d0e/class_pipes_provider_1_1_client_1_1_transmission_line.html#a02c3eec4a1041d7b57ee5df00559d251',1,'PipesProvider::Client::TransmissionLine']]],
-  ['logonhandler',['LogonHandler',['../df/deb/class_pipes_provider_1_1_networking_1_1_routing_1_1_authorized_instruction.html#a9f1721ee3d1fbb3803b77a991f5e1a03',1,'PipesProvider::Networking::Routing::AuthorizedInstruction']]]
+  ['interrupted',['Interrupted',['../da/d0e/class_pipes_provider_1_1_client_1_1_transmission_line.html#a478ad6ca4a6c2e77a1f0071e815a2e97',1,'PipesProvider::Client::TransmissionLine']]],
+  ['isanonymous',['IsAnonymous',['../df/d6d/struct_pipes_provider_1_1_security_1_1_logon_config.html#a75522f37bf91bbd20f01fa4498d28dd1',1,'PipesProvider::Security::LogonConfig']]],
+  ['isautorized',['IsAutorized',['../dc/d63/class_uniform_queries_1_1_executable_1_1_security_1_1_auth_query_processor.html#ab77106e3aee595bb89634690bec88d9f',1,'UniformQueries::Executable::Security::AuthQueryProcessor']]],
+  ['isempty',['IsEmpty',['../d1/d9e/struct_pipes_provider_1_1_networking_1_1_query_container.html#ab665d21894ae7406ccf846c242d3c2c6',1,'PipesProvider::Networking::QueryContainer']]],
+  ['isencrypted',['IsEncrypted',['../dc/d0f/class_uniform_queries_1_1_query.html#a632eacb9ec66240a9faab2742bbc06e5',1,'UniformQueries::Query']]],
+  ['isexpired',['IsExpired',['../d0/dfe/class_authority_controller_1_1_data_1_1_personal_1_1_ban_information.html#ad07cbe220f0625c0b22183d764709d74',1,'AuthorityController::Data::Personal::BanInformation']]],
+  ['isfullauthorized',['IsFullAuthorized',['../df/deb/class_pipes_provider_1_1_networking_1_1_routing_1_1_authorized_instruction.html#aa0c6fc43c6224fce460917f386adb66c',1,'PipesProvider::Networking::Routing::AuthorizedInstruction']]],
+  ['isinprogress',['IsInProgress',['../dc/d75/class_uniform_queries_1_1_executable_1_1_query_processor.html#aef7bc3b54884fa1c4f95af2fd542b6c0',1,'UniformQueries::Executable::QueryProcessor']]],
+  ['isloading',['IsLoading',['../d1/daa/class_authority_controller_1_1_data_1_1_application_1_1_config.html#a58ffd359471820f12196a98da26481ef',1,'AuthorityController::Data::Application::Config']]],
+  ['isnone',['IsNone',['../d5/d61/struct_uniform_queries_1_1_query_part.html#af380375ca82e9dc2eecf899b5933fe2b',1,'UniformQueries::QueryPart']]],
+  ['ispartialauthorized',['IsPartialAuthorized',['../dd/df3/class_pipes_provider_1_1_networking_1_1_routing_1_1_partial_authorized_instruction.html#a0c9a0756a9503e416183e99fdc9b2db2',1,'PipesProvider::Networking::Routing::PartialAuthorizedInstruction']]],
+  ['isterminated',['IsTerminated',['../dc/d75/class_uniform_queries_1_1_executable_1_1_query_processor.html#a6782b3a610851ec2eabb04b43172b7e0',1,'UniformQueries::Executable::QueryProcessor']]],
+  ['isvalid',['IsValid',['../d5/d2e/class_pipes_provider_1_1_networking_1_1_routing_1_1_instruction.html#a2c2686ad7d60d83ead49d823e7fcb32c',1,'PipesProvider.Networking.Routing.Instruction.IsValid()'],['../d7/dfb/class_pipes_provider_1_1_security_1_1_encryption_1_1_operators_1_1_a_e_s_encryption_operator.html#a156391c308759c34afdf003b7e78ffba',1,'PipesProvider.Security.Encryption.Operators.AESEncryptionOperator.IsValid()'],['../df/d9b/interface_pipes_provider_1_1_security_1_1_encryption_1_1_operators_1_1_i_encryption_operator.html#ae91fc07e9989fc8964efa2cb264e88a7',1,'PipesProvider.Security.Encryption.Operators.IEncryptionOperator.IsValid()'],['../db/d2a/class_pipes_provider_1_1_security_1_1_encryption_1_1_operators_1_1_r_s_a_encryption_operator.html#a1ab6450ba6952279d2e96bac7b539c32',1,'PipesProvider.Security.Encryption.Operators.RSAEncryptionOperator.IsValid()']]]
 ];

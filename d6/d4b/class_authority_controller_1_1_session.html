@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Doloro Networking Framework
-   &#160;<span id="projectnumber">1.0.3</span>
+   &#160;<span id="projectnumber">1.0.0</span>
    </div>
    <div id="projectbrief">Easy | Fast | Protected</div>
   </td>
@@ -90,90 +90,85 @@ $(document).ready(function(){initNavTree('d6/d4b/class_authority_controller_1_1_
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#properties">Properties</a> &#124;
-<a href="#pri-methods">Private Member Functions</a> &#124;
-<a href="#pri-attribs">Private Attributes</a> &#124;
-<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="../../d3/d61/class_authority_controller_1_1_session-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">AuthorityController.Session Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>Object that control data relative to current authority session.  
+<p>An instance of that class controls a data relative to a current authority session.  
  <a href="../../d6/d4b/class_authority_controller_1_1_session.html#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a798dbdfeeb3ce9156d99d8b7962d9528"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d4b/class_authority_controller_1_1_session.html#a798dbdfeeb3ce9156d99d8b7962d9528">AsignTokenToUser</a> (<a class="el" href="../../df/db1/class_authority_controller_1_1_data_1_1_personal_1_1_user.html">User</a> user, string token)</td></tr>
-<tr class="memdesc:a798dbdfeeb3ce9156d99d8b7962d9528"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create token registration binded for user profile. Not profided fields would filled like anonymous. Time stamp will contain the time of method call.  <a href="#a798dbdfeeb3ce9156d99d8b7962d9528">More...</a><br /></td></tr>
-<tr class="separator:a798dbdfeeb3ce9156d99d8b7962d9528"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab164831d0a5fc909c200feba1ac882e4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d4b/class_authority_controller_1_1_session.html#ab164831d0a5fc909c200feba1ac882e4">AsignTokenToUser</a> (<a class="el" href="../../df/db1/class_authority_controller_1_1_data_1_1_personal_1_1_user.html">User</a> user, string token, string mac, string os, string stamp)</td></tr>
-<tr class="memdesc:ab164831d0a5fc909c200feba1ac882e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create token registration binded for user profile.  <a href="#ab164831d0a5fc909c200feba1ac882e4">More...</a><br /></td></tr>
-<tr class="separator:ab164831d0a5fc909c200feba1ac882e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a935fde7bbd4091cc33bf0e72b354b937"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d4b/class_authority_controller_1_1_session.html#a935fde7bbd4091cc33bf0e72b354b937">Session</a> ()</td></tr>
+<tr class="memdesc:a935fde7bbd4091cc33bf0e72b354b937"><td class="mdescLeft">&#160;</td><td class="mdescRight">Instiniates a session object. Sets it to the <a class="el" href="../../d6/d4b/class_authority_controller_1_1_session.html#a20d84345a3843b7a1b340887bb961f7c" title="A current active session. ">Current</a> property.  <a href="#a935fde7bbd4091cc33bf0e72b354b937">More...</a><br /></td></tr>
+<tr class="separator:a935fde7bbd4091cc33bf0e72b354b937"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a037ee4ee68c2b3cdd18ebadb3c20a0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d4b/class_authority_controller_1_1_session.html#a8a037ee4ee68c2b3cdd18ebadb3c20a0">AssignTokenToUser</a> (<a class="el" href="../../df/db1/class_authority_controller_1_1_data_1_1_personal_1_1_user.html">User</a> user, string token)</td></tr>
+<tr class="memdesc:a8a037ee4ee68c2b3cdd18ebadb3c20a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates token registration binded to a user profile. Not provided fields will filled like anonymous. A time stamp will contains the time of method call.  <a href="#a8a037ee4ee68c2b3cdd18ebadb3c20a0">More...</a><br /></td></tr>
+<tr class="separator:a8a037ee4ee68c2b3cdd18ebadb3c20a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1cca0207116f88b283270ec080e38705"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d4b/class_authority_controller_1_1_session.html#a1cca0207116f88b283270ec080e38705">AssignTokenToUser</a> (<a class="el" href="../../df/db1/class_authority_controller_1_1_data_1_1_personal_1_1_user.html">User</a> user, string token, string mac, string os, string stamp)</td></tr>
+<tr class="memdesc:a1cca0207116f88b283270ec080e38705"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates token registration binded to a user profile.  <a href="#a1cca0207116f88b283270ec080e38705">More...</a><br /></td></tr>
+<tr class="separator:a1cca0207116f88b283270ec080e38705"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a135fc2981f8ad7d26d484c9c9bcbf83c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d4b/class_authority_controller_1_1_session.html#a135fc2981f8ad7d26d484c9c9bcbf83c">SetTokenRights</a> (string targetToken, params string[] rights)</td></tr>
-<tr class="memdesc:a135fc2981f8ad7d26d484c9c9bcbf83c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set rights' codes array as relative to token.  <a href="#a135fc2981f8ad7d26d484c9c9bcbf83c">More...</a><br /></td></tr>
+<tr class="memdesc:a135fc2981f8ad7d26d484c9c9bcbf83c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets rights' codes array as relative to some token.  <a href="#a135fc2981f8ad7d26d484c9c9bcbf83c">More...</a><br /></td></tr>
 <tr class="separator:a135fc2981f8ad7d26d484c9c9bcbf83c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a37157e74e3aee082b7adfb906ec69511"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d4b/class_authority_controller_1_1_session.html#a37157e74e3aee082b7adfb906ec69511">TryGetTokenRights</a> (string token, out string[] rights)</td></tr>
-<tr class="memdesc:a37157e74e3aee082b7adfb906ec69511"><td class="mdescLeft">&#160;</td><td class="mdescRight">Trying to load rights registred for token.  <a href="#a37157e74e3aee082b7adfb906ec69511">More...</a><br /></td></tr>
+<tr class="memdesc:a37157e74e3aee082b7adfb906ec69511"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tries to load rights provided to a token.  <a href="#a37157e74e3aee082b7adfb906ec69511">More...</a><br /></td></tr>
 <tr class="separator:a37157e74e3aee082b7adfb906ec69511"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a811b23b70e61ac567ec8eeb54641ffcd"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d4b/class_authority_controller_1_1_session.html#a811b23b70e61ac567ec8eeb54641ffcd">SetExpired</a> (string token)</td></tr>
-<tr class="memdesc:a811b23b70e61ac567ec8eeb54641ffcd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removing of token from table and inform relative servers about that.  <a href="#a811b23b70e61ac567ec8eeb54641ffcd">More...</a><br /></td></tr>
+<tr class="memdesc:a811b23b70e61ac567ec8eeb54641ffcd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removs a token from the registred and informs relative servers about that.  <a href="#a811b23b70e61ac567ec8eeb54641ffcd">More...</a><br /></td></tr>
 <tr class="separator:a811b23b70e61ac567ec8eeb54641ffcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abdd6c48f989b28cc9b3838dbe569edc6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d4b/class_authority_controller_1_1_session.html#abdd6c48f989b28cc9b3838dbe569edc6">TryGetTokenInfo</a> (string token, out <a class="el" href="../../dd/d42/class_authority_controller_1_1_data_1_1_temporal_1_1_token_info.html">TokenInfo</a> info)</td></tr>
-<tr class="memdesc:abdd6c48f989b28cc9b3838dbe569edc6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Try to find registred token info.  <a href="#abdd6c48f989b28cc9b3838dbe569edc6">More...</a><br /></td></tr>
+<tr class="memdesc:abdd6c48f989b28cc9b3838dbe569edc6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tries to find a token info among registered ones.  <a href="#abdd6c48f989b28cc9b3838dbe569edc6">More...</a><br /></td></tr>
 <tr class="separator:abdd6c48f989b28cc9b3838dbe569edc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a46ef72d5e8b812ae7ecd5bf413a320f0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d4b/class_authority_controller_1_1_session.html#a46ef72d5e8b812ae7ecd5bf413a320f0">InformAuthorityFollowers</a> (string message)</td></tr>
-<tr class="memdesc:a46ef72d5e8b812ae7ecd5bf413a320f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sanding the message to all authority following servers descibed in AuthorityFollowers table.  <a href="#a46ef72d5e8b812ae7ecd5bf413a320f0">More...</a><br /></td></tr>
-<tr class="separator:a46ef72d5e8b812ae7ecd5bf413a320f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a836a922ecae528a541ea31e53bd7df55"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d4b/class_authority_controller_1_1_session.html#a836a922ecae528a541ea31e53bd7df55">InformAuthorityFollowers</a> (<a class="el" href="../../dc/d0f/class_uniform_queries_1_1_query.html">UniformQueries.Query</a> message)</td></tr>
+<tr class="memdesc:a836a922ecae528a541ea31e53bd7df55"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sends a message to all authority following servers described in the <a class="el" href="../../d6/d4b/class_authority_controller_1_1_session.html#a6a8a683e8b0d236d2808cbd9130c0b99" title="Routing table that contains instructions to access reletive servers that need to be informed about to...">AuthorityFollowers</a> table.  <a href="#a836a922ecae528a541ea31e53bd7df55">More...</a><br /></td></tr>
+<tr class="separator:a836a922ecae528a541ea31e53bd7df55"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:a20d84345a3843b7a1b340887bb961f7c"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d6/d4b/class_authority_controller_1_1_session.html">Session</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d4b/class_authority_controller_1_1_session.html#a20d84345a3843b7a1b340887bb961f7c">Current</a><code> [get, set]</code></td></tr>
-<tr class="memdesc:a20d84345a3843b7a1b340887bb961f7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current active session.  <a href="#a20d84345a3843b7a1b340887bb961f7c">More...</a><br /></td></tr>
+<tr class="memdesc:a20d84345a3843b7a1b340887bb961f7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">A current active session.  <a href="#a20d84345a3843b7a1b340887bb961f7c">More...</a><br /></td></tr>
 <tr class="separator:a20d84345a3843b7a1b340887bb961f7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6a8a683e8b0d236d2808cbd9130c0b99"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/d3a/class_pipes_provider_1_1_networking_1_1_routing_1_1_routing_table.html">RoutingTable</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d4b/class_authority_controller_1_1_session.html#a6a8a683e8b0d236d2808cbd9130c0b99">AuthorityFollowers</a><code> [get, set]</code></td></tr>
-<tr class="memdesc:a6a8a683e8b0d236d2808cbd9130c0b99"><td class="mdescLeft">&#160;</td><td class="mdescRight">Routing table that contain instructions to access reletive servers that need to be informed about token events.  <a href="#a6a8a683e8b0d236d2808cbd9130c0b99">More...</a><br /></td></tr>
+<tr class="memdesc:a6a8a683e8b0d236d2808cbd9130c0b99"><td class="mdescLeft">&#160;</td><td class="mdescRight">Routing table that contains instructions to access reletive servers that need to be informed about token events.  <a href="#a6a8a683e8b0d236d2808cbd9130c0b99">More...</a><br /></td></tr>
 <tr class="separator:a6a8a683e8b0d236d2808cbd9130c0b99"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a531bf4c153a454ac5236366a1e684619"><td class="memItemLeft" align="right" valign="top">CancellationToken&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d4b/class_authority_controller_1_1_session.html#a531bf4c153a454ac5236366a1e684619">TerminationToken</a><code> [get]</code></td></tr>
-<tr class="memdesc:a531bf4c153a454ac5236366a1e684619"><td class="mdescLeft">&#160;</td><td class="mdescRight">Token that provide possibility to terminate all stated tasks in this session.  <a href="#a531bf4c153a454ac5236366a1e684619">More...</a><br /></td></tr>
-<tr class="separator:a531bf4c153a454ac5236366a1e684619"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
-Private Member Functions</h2></td></tr>
-<tr class="memitem:a8422d53f01daff616c1588cb3d657882"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d4b/class_authority_controller_1_1_session.html#a8422d53f01daff616c1588cb3d657882">RemoveToken</a> (string token)</td></tr>
-<tr class="memdesc:a8422d53f01daff616c1588cb3d657882"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removing token from table.  <a href="#a8422d53f01daff616c1588cb3d657882">More...</a><br /></td></tr>
-<tr class="separator:a8422d53f01daff616c1588cb3d657882"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aea2ab13cf2e1cd192ef5e49935508b5b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d4b/class_authority_controller_1_1_session.html#aea2ab13cf2e1cd192ef5e49935508b5b">ShareTokenRights_MessageProcessor</a> (string targetToken, string[] rights)</td></tr>
-<tr class="memdesc:aea2ab13cf2e1cd192ef5e49935508b5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sending new rights of token to related servers.  <a href="#aea2ab13cf2e1cd192ef5e49935508b5b">More...</a><br /></td></tr>
-<tr class="separator:aea2ab13cf2e1cd192ef5e49935508b5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
-Private Attributes</h2></td></tr>
-<tr class="memitem:ab5d41775c82bcc731fc4c85f9934469c"><td class="memItemLeft" align="right" valign="top"><a id="ab5d41775c82bcc731fc4c85f9934469c"></a>
-CancellationToken&#160;</td><td class="memItemRight" valign="bottom"><b>_terminationToken</b></td></tr>
-<tr class="separator:ab5d41775c82bcc731fc4c85f9934469c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab31f50a3b13fd88c44be84c0243ef6f9"><td class="memItemLeft" align="right" valign="top">readonly Hashtable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d4b/class_authority_controller_1_1_session.html#ab31f50a3b13fd88c44be84c0243ef6f9">tokensInfo</a> = new Hashtable()</td></tr>
-<tr class="memdesc:ab31f50a3b13fd88c44be84c0243ef6f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Table that contains rights provided to token.  <a href="#ab31f50a3b13fd88c44be84c0243ef6f9">More...</a><br /></td></tr>
-<tr class="separator:ab31f50a3b13fd88c44be84c0243ef6f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
-Static Private Attributes</h2></td></tr>
-<tr class="memitem:aacaa808a7220b2dc4cf40d5be5752256"><td class="memItemLeft" align="right" valign="top"><a id="aacaa808a7220b2dc4cf40d5be5752256"></a>
-static <a class="el" href="../../d6/d4b/class_authority_controller_1_1_session.html">Session</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d4b/class_authority_controller_1_1_session.html#aacaa808a7220b2dc4cf40d5be5752256">_current</a></td></tr>
-<tr class="memdesc:aacaa808a7220b2dc4cf40d5be5752256"><td class="mdescLeft">&#160;</td><td class="mdescRight">Object that contain current session. <br /></td></tr>
-<tr class="separator:aacaa808a7220b2dc4cf40d5be5752256"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1c01bd2006647127003efa8856e0735"><td class="memItemLeft" align="right" valign="top">CancellationTokenSource&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d4b/class_authority_controller_1_1_session.html#aa1c01bd2006647127003efa8856e0735">TerminationTokenSource</a><code> [get]</code></td></tr>
+<tr class="memdesc:aa1c01bd2006647127003efa8856e0735"><td class="mdescLeft">&#160;</td><td class="mdescRight">Token source that provide possibility to terminate all stated tasks in this session.  <a href="#aa1c01bd2006647127003efa8856e0735">More...</a><br /></td></tr>
+<tr class="separator:aa1c01bd2006647127003efa8856e0735"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Object that control data relative to current authority session. </p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a798dbdfeeb3ce9156d99d8b7962d9528"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a798dbdfeeb3ce9156d99d8b7962d9528">&#9670;&nbsp;</a></span>AsignTokenToUser() <span class="overload">[1/2]</span></h2>
+<div class="textblock"><p>An instance of that class controls a data relative to a current authority session. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a935fde7bbd4091cc33bf0e72b354b937"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a935fde7bbd4091cc33bf0e72b354b937">&#9670;&nbsp;</a></span>Session()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool AuthorityController.Session.AsignTokenToUser </td>
+          <td class="memname">AuthorityController.Session.Session </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Instiniates a session object. Sets it to the <a class="el" href="../../d6/d4b/class_authority_controller_1_1_session.html#a20d84345a3843b7a1b340887bb961f7c" title="A current active session. ">Current</a> property. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a8a037ee4ee68c2b3cdd18ebadb3c20a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a037ee4ee68c2b3cdd18ebadb3c20a0">&#9670;&nbsp;</a></span>AssignTokenToUser() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool AuthorityController.Session.AssignTokenToUser </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../df/db1/class_authority_controller_1_1_data_1_1_personal_1_1_user.html">User</a>&#160;</td>
           <td class="paramname"><em>user</em>, </td>
@@ -192,26 +187,26 @@ static <a class="el" href="../../d6/d4b/class_authority_controller_1_1_session.h
       </table>
 </div><div class="memdoc">
 
-<p>Create token registration binded for user profile. Not profided fields would filled like anonymous. Time stamp will contain the time of method call. </p>
+<p>Creates token registration binded to a user profile. Not provided fields will filled like anonymous. A time stamp will contains the time of method call. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">user</td><td></td></tr>
-    <tr><td class="paramname">token</td><td></td></tr>
+    <tr><td class="paramname">user</td><td>A user profile that contains core data.</td></tr>
+    <tr><td class="paramname">token</td><td>A token bonded with the user.</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>A result of operation.</dd></dl>
 
 </div>
 </div>
-<a id="ab164831d0a5fc909c200feba1ac882e4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab164831d0a5fc909c200feba1ac882e4">&#9670;&nbsp;</a></span>AsignTokenToUser() <span class="overload">[2/2]</span></h2>
+<a id="a1cca0207116f88b283270ec080e38705"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1cca0207116f88b283270ec080e38705">&#9670;&nbsp;</a></span>AssignTokenToUser() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool AuthorityController.Session.AsignTokenToUser </td>
+          <td class="memname">bool AuthorityController.Session.AssignTokenToUser </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../df/db1/class_authority_controller_1_1_data_1_1_personal_1_1_user.html">User</a>&#160;</td>
           <td class="paramname"><em>user</em>, </td>
@@ -248,23 +243,23 @@ static <a class="el" href="../../d6/d4b/class_authority_controller_1_1_session.h
       </table>
 </div><div class="memdoc">
 
-<p>Create token registration binded for user profile. </p>
+<p>Creates token registration binded to a user profile. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">user</td><td>User profile that contain core data.</td></tr>
-    <tr><td class="paramname">token</td><td>Token provided to that user.</td></tr>
-    <tr><td class="paramname">mac</td><td>Mac adress of user machine.</td></tr>
-    <tr><td class="paramname">os</td><td>OS of user.</td></tr>
-    <tr><td class="paramname">stamp</td><td>Time stamp that show when the session was started.</td></tr>
+    <tr><td class="paramname">user</td><td>A user profile that contains core data.</td></tr>
+    <tr><td class="paramname">token</td><td>A token bonded with the user.</td></tr>
+    <tr><td class="paramname">mac</td><td>A MAC-adress of user machine.</td></tr>
+    <tr><td class="paramname">os</td><td>An OS installed on the user machine</td></tr>
+    <tr><td class="paramname">stamp</td><td>A time stamp that marks when the session was started.</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>A result of operation.</dd></dl>
 
 </div>
 </div>
-<a id="a46ef72d5e8b812ae7ecd5bf413a320f0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a46ef72d5e8b812ae7ecd5bf413a320f0">&#9670;&nbsp;</a></span>InformAuthorityFollowers()</h2>
+<a id="a836a922ecae528a541ea31e53bd7df55"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a836a922ecae528a541ea31e53bd7df55">&#9670;&nbsp;</a></span>InformAuthorityFollowers()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -272,55 +267,20 @@ static <a class="el" href="../../d6/d4b/class_authority_controller_1_1_session.h
         <tr>
           <td class="memname">void AuthorityController.Session.InformAuthorityFollowers </td>
           <td>(</td>
-          <td class="paramtype">string&#160;</td>
+          <td class="paramtype"><a class="el" href="../../dc/d0f/class_uniform_queries_1_1_query.html">UniformQueries.Query</a>&#160;</td>
           <td class="paramname"><em>message</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Sanding the message to all authority following servers descibed in AuthorityFollowers table. </p>
+<p>Sends a message to all authority following servers described in the <a class="el" href="../../d6/d4b/class_authority_controller_1_1_session.html#a6a8a683e8b0d236d2808cbd9130c0b99" title="Routing table that contains instructions to access reletive servers that need to be informed about to...">AuthorityFollowers</a> table. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">message</td><td>Message that would be shared.</td></tr>
+    <tr><td class="paramname">message</td><td>A message that will be shared.</td></tr>
   </table>
   </dd>
 </dl>
-
-</div>
-</div>
-<a id="a8422d53f01daff616c1588cb3d657882"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8422d53f01daff616c1588cb3d657882">&#9670;&nbsp;</a></span>RemoveToken()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool AuthorityController.Session.RemoveToken </td>
-          <td>(</td>
-          <td class="paramtype">string&#160;</td>
-          <td class="paramname"><em>token</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Removing token from table. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">token</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Is removed successful?</dd></dl>
 
 </div>
 </div>
@@ -340,10 +300,10 @@ static <a class="el" href="../../d6/d4b/class_authority_controller_1_1_session.h
       </table>
 </div><div class="memdoc">
 
-<p>Removing of token from table and inform relative servers about that. </p>
+<p>Removs a token from the registred and informs relative servers about that. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">token</td><td></td></tr>
+    <tr><td class="paramname">token</td><td>A token that will expired.</td></tr>
   </table>
   </dd>
 </dl>
@@ -376,57 +336,12 @@ static <a class="el" href="../../d6/d4b/class_authority_controller_1_1_session.h
       </table>
 </div><div class="memdoc">
 
-<p>Set rights' codes array as relative to token. </p>
-<p>Make and share SET TOKEN RIGHTS query to every related server. Share only anonymous format of information. Personal data would be droped. </p>
+<p>Sets rights' codes array as relative to some token. </p>
+<p>Makes and execute the <a class="el" href="../../d6/d9d/class_authority_controller_1_1_queries_1_1_s_e_t___t_o_k_e_n___r_i_g_h_t_s.html" title="Change rights list to provided token. Require admin rights. ">Queries.SET_TOKEN_RIGHTS</a> query to an every related server. Shares an information in anonymous format. Any personal data will droped. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">targetToken</td><td>Token that need to change rights.</td></tr>
-    <tr><td class="paramname">rights</td><td>List of new rights allowed to target toekn.</td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="aea2ab13cf2e1cd192ef5e49935508b5b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aea2ab13cf2e1cd192ef5e49935508b5b">&#9670;&nbsp;</a></span>ShareTokenRights_MessageProcessor()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void AuthorityController.Session.ShareTokenRights_MessageProcessor </td>
-          <td>(</td>
-          <td class="paramtype">string&#160;</td>
-          <td class="paramname"><em>targetToken</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">string []&#160;</td>
-          <td class="paramname"><em>rights</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Sending new rights of token to related servers. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">targetToken</td><td></td></tr>
-    <tr><td class="paramname">rights</td><td></td></tr>
+    <tr><td class="paramname">targetToken</td><td>A token that for rights update.</td></tr>
+    <tr><td class="paramname">rights</td><td>An array of new rights provided to the token.</td></tr>
   </table>
   </dd>
 </dl>
@@ -459,15 +374,15 @@ static <a class="el" href="../../d6/d4b/class_authority_controller_1_1_session.h
       </table>
 </div><div class="memdoc">
 
-<p>Try to find registred token info. </p>
+<p>Tries to find a token info among registered ones. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">token</td><td></td></tr>
-    <tr><td class="paramname">info</td><td></td></tr>
+    <tr><td class="paramname">token</td><td>A token for search.</td></tr>
+    <tr><td class="paramname">info</td><td>A toke info in case if found.</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>A result of search operation.</dd></dl>
 
 </div>
 </div>
@@ -497,41 +412,15 @@ static <a class="el" href="../../d6/d4b/class_authority_controller_1_1_session.h
       </table>
 </div><div class="memdoc">
 
-<p>Trying to load rights registred for token. </p>
+<p>Tries to load rights provided to a token. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">token</td><td><a class="el" href="../../d6/d4b/class_authority_controller_1_1_session.html" title="Object that control data relative to current authority session. ">Session</a> token.</td></tr>
-    <tr><td class="paramname">rights</td><td>Array of rights' codes relative to token.</td></tr>
+    <tr><td class="paramname">token</td><td>A session token.</td></tr>
+    <tr><td class="paramname">rights</td><td>An array of rights' codes related to the token.</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
-
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="ab31f50a3b13fd88c44be84c0243ef6f9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab31f50a3b13fd88c44be84c0243ef6f9">&#9670;&nbsp;</a></span>tokensInfo</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">readonly Hashtable AuthorityController.Session.tokensInfo = new Hashtable()</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Table that contains rights provided to token. </p>
-<p>Key - string token Value - TokenInfo </p>
+<dl class="section return"><dt>Returns</dt><dd>Result of the search operation.</dd></dl>
 
 </div>
 </div>
@@ -556,8 +445,8 @@ static <a class="el" href="../../d6/d4b/class_authority_controller_1_1_session.h
 </table>
 </div><div class="memdoc">
 
-<p>Routing table that contain instructions to access reletive servers that need to be informed about token events. </p>
-<p>Before sharing query still will check is the query stituable for that routing instruction. If you no need any filtring then just leave query patterns empty. </p>
+<p>Routing table that contains instructions to access reletive servers that need to be informed about token events. </p>
+<p>Before sharing a query still will check is the query suituable for that routing instruction. If you no need any filtring then just leave query patterns empty. </p>
 
 </div>
 </div>
@@ -581,12 +470,12 @@ static <a class="el" href="../../d6/d4b/class_authority_controller_1_1_session.h
 </table>
 </div><div class="memdoc">
 
-<p>Current active session. </p>
+<p>A current active session. </p>
 
 </div>
 </div>
-<a id="a531bf4c153a454ac5236366a1e684619"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a531bf4c153a454ac5236366a1e684619">&#9670;&nbsp;</a></span>TerminationToken</h2>
+<a id="aa1c01bd2006647127003efa8856e0735"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1c01bd2006647127003efa8856e0735">&#9670;&nbsp;</a></span>TerminationTokenSource</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -595,7 +484,7 @@ static <a class="el" href="../../d6/d4b/class_authority_controller_1_1_session.h
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">CancellationToken AuthorityController.Session.TerminationToken</td>
+          <td class="memname">CancellationTokenSource AuthorityController.Session.TerminationTokenSource</td>
         </tr>
       </table>
   </td>
@@ -605,12 +494,12 @@ static <a class="el" href="../../d6/d4b/class_authority_controller_1_1_session.h
 </table>
 </div><div class="memdoc">
 
-<p>Token that provide possibility to terminate all stated tasks in this session. </p>
+<p>Token source that provide possibility to terminate all stated tasks in this session. </p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/Work/GitHub/doloro-networking-framework/Addons/AuthorityController/Session.cs</li>
+<li>doloro-networking-framework/Addons/AuthorityController/Session.cs</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

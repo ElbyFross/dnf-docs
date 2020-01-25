@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Doloro Networking Framework
-   &#160;<span id="projectnumber">1.0.3</span>
+   &#160;<span id="projectnumber">1.0.0</span>
    </div>
    <div id="projectbrief">Easy | Fast | Protected</div>
   </td>
@@ -96,9 +96,15 @@ $(document).ready(function(){initNavTree('d5/d15/class_authority_controller_1_1_
 <div class="title">AuthorityController.Data.Application.SaltContainer Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Provides salt container that dat  
+ <a href="../../d5/d15/class_authority_controller_1_1_data_1_1_application_1_1_salt_container.html#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:aa1c6611edb9a6b780e6763d780f7c2ce"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d15/class_authority_controller_1_1_data_1_1_application_1_1_salt_container.html#aa1c6611edb9a6b780e6763d780f7c2ce">SaltContainer</a> ()</td></tr>
+<tr class="memdesc:aa1c6611edb9a6b780e6763d780f7c2ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Instiniate default salt container.  <a href="#aa1c6611edb9a6b780e6763d780f7c2ce">More...</a><br /></td></tr>
+<tr class="separator:aa1c6611edb9a6b780e6763d780f7c2ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0bbc5729faf6cdce0798360552359777"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d15/class_authority_controller_1_1_data_1_1_application_1_1_salt_container.html#a0bbc5729faf6cdce0798360552359777">SaltContainer</a> (int keySize)</td></tr>
 <tr class="memdesc:a0bbc5729faf6cdce0798360552359777"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create salt container with requested salt size.  <a href="#a0bbc5729faf6cdce0798360552359777">More...</a><br /></td></tr>
 <tr class="separator:a0bbc5729faf6cdce0798360552359777"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -121,15 +127,36 @@ Static Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a0aaf05215aac85237a3fb02de5a55a44"><td class="memItemLeft" align="right" valign="top">byte []&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d15/class_authority_controller_1_1_data_1_1_application_1_1_salt_container.html#a0aaf05215aac85237a3fb02de5a55a44">key</a></td></tr>
-<tr class="memdesc:a0aaf05215aac85237a3fb02de5a55a44"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bytes array that can be added to information before hashing to increase entropy.  <a href="#a0aaf05215aac85237a3fb02de5a55a44">More...</a><br /></td></tr>
+<tr class="memdesc:a0aaf05215aac85237a3fb02de5a55a44"><td class="mdescLeft">&#160;</td><td class="mdescRight">A bytes array that can be added to information before hashing to increase entropy.  <a href="#a0aaf05215aac85237a3fb02de5a55a44">More...</a><br /></td></tr>
 <tr class="separator:a0aaf05215aac85237a3fb02de5a55a44"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adcf2002c95427ded8b59046896b9c355"><td class="memItemLeft" align="right" valign="top">byte []&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d15/class_authority_controller_1_1_data_1_1_application_1_1_salt_container.html#adcf2002c95427ded8b59046896b9c355">validationStamp</a></td></tr>
-<tr class="memdesc:adcf2002c95427ded8b59046896b9c355"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stamp that provide confirmation that salt is valid. During loading salt will applied to test string and this stamp need to be the same as result.  <a href="#adcf2002c95427ded8b59046896b9c355">More...</a><br /></td></tr>
+<tr class="memdesc:adcf2002c95427ded8b59046896b9c355"><td class="mdescLeft">&#160;</td><td class="mdescRight">A stamp that provides confirmation that salt is valid. During loading a salt will applied to a test string and this stamp must to be the same as result.  <a href="#adcf2002c95427ded8b59046896b9c355">More...</a><br /></td></tr>
 <tr class="separator:adcf2002c95427ded8b59046896b9c355"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Provides salt container that dat </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="aa1c6611edb9a6b780e6763d780f7c2ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1c6611edb9a6b780e6763d780f7c2ce">&#9670;&nbsp;</a></span>SaltContainer() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">AuthorityController.Data.Application.SaltContainer.SaltContainer </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Instiniate default salt container. </p>
+
+</div>
+</div>
 <a id="a0bbc5729faf6cdce0798360552359777"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0bbc5729faf6cdce0798360552359777">&#9670;&nbsp;</a></span>SaltContainer()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0bbc5729faf6cdce0798360552359777">&#9670;&nbsp;</a></span>SaltContainer() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -147,7 +174,7 @@ Public Attributes</h2></td></tr>
 <p>Create salt container with requested salt size. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">keySize</td><td></td></tr>
+    <tr><td class="paramname">keySize</td><td>A size of the key.</td></tr>
   </table>
   </dd>
 </dl>
@@ -174,7 +201,7 @@ Public Attributes</h2></td></tr>
 <p>Generate new key for container with requiered size. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">keySize</td><td></td></tr>
+    <tr><td class="paramname">keySize</td><td>A size of the key.</td></tr>
   </table>
   </dd>
 </dl>
@@ -219,10 +246,11 @@ Public Attributes</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">input</td><td>Password recived from user.</td></tr>
+    <tr><td class="paramname">salt</td><td>Salt that would be used to increase entropy.</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>A hash of the password.</dd></dl>
 
 </div>
 </div>
@@ -262,7 +290,7 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Call base operation and compare results. Relevant result must be equal to stamp. </p>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>A result of validation.</dd></dl>
 
 </div>
 </div>
@@ -279,7 +307,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Bytes array that can be added to information before hashing to increase entropy. </p>
+<p>A bytes array that can be added to information before hashing to increase entropy. </p>
 
 </div>
 </div>
@@ -295,12 +323,12 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Stamp that provide confirmation that salt is valid. During loading salt will applied to test string and this stamp need to be the same as result. </p>
+<p>A stamp that provides confirmation that salt is valid. During loading a salt will applied to a test string and this stamp must to be the same as result. </p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/Work/GitHub/doloro-networking-framework/Addons/AuthorityController/Data/Application/SaltContainer.cs</li>
+<li>doloro-networking-framework/Addons/AuthorityController/Data/Application/SaltContainer.cs</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

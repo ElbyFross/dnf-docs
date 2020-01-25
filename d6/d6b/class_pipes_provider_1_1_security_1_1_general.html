@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Doloro Networking Framework
-   &#160;<span id="projectnumber">1.0.3</span>
+   &#160;<span id="projectnumber">1.0.0</span>
    </div>
    <div id="projectbrief">Easy | Fast | Protected</div>
   </td>
@@ -96,7 +96,7 @@ $(document).ready(function(){initNavTree('d6/d6b/class_pipes_provider_1_1_securi
 </div><!--header-->
 <div class="contents">
 
-<p>Class that contain methods for working with sequrity systems.  
+<p>A static class that contains an API for work with the Pipes Provider security features.  
  <a href="../../d6/d6b/class_pipes_provider_1_1_security_1_1_general.html#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
@@ -107,9 +107,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a9536a3073883f12e38979f54c6f389d1"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d6b/class_pipes_provider_1_1_security_1_1_general.html#a9536a3073883f12e38979f54c6f389d1">SetLocalSecurityAuthority</a> (<a class="el" href="../../da/d2f/namespace_pipes_provider_1_1_security.html#a1a6020eca1c661a6f7140e8260502d7e">SecurityLevel</a> level)</td></tr>
 <tr class="memdesc:a9536a3073883f12e38979f54c6f389d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Change local security authority of machine to allow requested security level. Require admin rights.  <a href="#a9536a3073883f12e38979f54c6f389d1">More...</a><br /></td></tr>
 <tr class="separator:a9536a3073883f12e38979f54c6f389d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab72cbd58c62e331b7602c6f99ad7cf54"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d6b/class_pipes_provider_1_1_security_1_1_general.html#ab72cbd58c62e331b7602c6f99ad7cf54">TryLogon</a> (<a class="el" href="../../df/d6d/struct_pipes_provider_1_1_security_1_1_logon_config.html">LogonConfig</a> config, out SafeAccessTokenHandle token)</td></tr>
-<tr class="memdesc:ab72cbd58c62e331b7602c6f99ad7cf54"><td class="mdescLeft">&#160;</td><td class="mdescRight">Trying to get access token for remote user. In case if requested anonymous connection then return anonymous token without permission check.  <a href="#ab72cbd58c62e331b7602c6f99ad7cf54">More...</a><br /></td></tr>
-<tr class="separator:ab72cbd58c62e331b7602c6f99ad7cf54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afaf9a10c8825983c5587055bdc32c2c3"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d6b/class_pipes_provider_1_1_security_1_1_general.html#afaf9a10c8825983c5587055bdc32c2c3">TryToLogonAtRemoteDevice</a> (<a class="el" href="../../df/d6d/struct_pipes_provider_1_1_security_1_1_logon_config.html">LogonConfig</a> config, out SafeAccessTokenHandle token)</td></tr>
+<tr class="memdesc:afaf9a10c8825983c5587055bdc32c2c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tries to get access token for remote user. In case if requested anonymous connection then return anonymous token without permission check.  <a href="#afaf9a10c8825983c5587055bdc32c2c3">More...</a><br /></td></tr>
+<tr class="separator:afaf9a10c8825983c5587055bdc32c2c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
 Properties</h2></td></tr>
@@ -118,7 +118,7 @@ Properties</h2></td></tr>
 <tr class="separator:a49b6c46c031ae200885fcababfdb32c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Class that contain methods for working with sequrity systems. </p>
+<div class="textblock"><p>A static class that contains an API for work with the Pipes Provider security features. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a7b89c9d059851b68df31b78c1a2e021c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7b89c9d059851b68df31b78c1a2e021c">&#9670;&nbsp;</a></span>GetRulesForLevels()</h2>
@@ -191,8 +191,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="ab72cbd58c62e331b7602c6f99ad7cf54"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab72cbd58c62e331b7602c6f99ad7cf54">&#9670;&nbsp;</a></span>TryLogon()</h2>
+<a id="afaf9a10c8825983c5587055bdc32c2c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afaf9a10c8825983c5587055bdc32c2c3">&#9670;&nbsp;</a></span>TryToLogonAtRemoteDevice()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -201,7 +201,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static bool PipesProvider.Security.General.TryLogon </td>
+          <td class="memname">static bool PipesProvider.Security.General.TryToLogonAtRemoteDevice </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../df/d6d/struct_pipes_provider_1_1_security_1_1_logon_config.html">LogonConfig</a>&#160;</td>
           <td class="paramname"><em>config</em>, </td>
@@ -225,14 +225,15 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Trying to get access token for remote user. In case if requested anonymous connection then return anonymous token without permission check. </p>
+<p>Tries to get access token for remote user. In case if requested anonymous connection then return anonymous token without permission check. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">config</td><td>Fields required for remote logon with impersonation.</td></tr>
+    <tr><td class="paramname">config</td><td>Metadata required for remote logon with impersonation.</td></tr>
+    <tr><td class="paramname">token</td><td>A token authorized in system with required rights.</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>A result if logon operatin.</dd></dl>
 
 </div>
 </div>
@@ -262,7 +263,7 @@ Properties</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/Work/GitHub/doloro-networking-framework/Core/PipesProvider/Security/General.cs</li>
+<li>doloro-networking-framework/Core/PipesProvider/Security/General.cs</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Doloro Networking Framework
-   &#160;<span id="projectnumber">1.0.3</span>
+   &#160;<span id="projectnumber">1.0.0</span>
    </div>
    <div id="projectbrief">Easy | Fast | Protected</div>
   </td>
@@ -94,25 +94,30 @@ $(document).ready(function(){initNavTree('d7/daa/class_authority_controller_1_1_
 <div class="title">AuthorityController.API.Tokens Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Provides an <a class="el" href="../../d0/dac/namespace_authority_controller_1_1_a_p_i.html">API</a> for work with security tokens.  
+ <a href="../../d7/daa/class_authority_controller_1_1_a_p_i_1_1_tokens.html#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a3077a786044bdd530ad50dbd615f8beb"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/daa/class_authority_controller_1_1_a_p_i_1_1_tokens.html#a3077a786044bdd530ad50dbd615f8beb">IsHasEnoughRigths</a> (string token, out string[] requesterRights, out string error, params string[] requiredRights)</td></tr>
-<tr class="memdesc:a3077a786044bdd530ad50dbd615f8beb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check does this token has all requested rights. If token is not registred on this server then will throw UnauthorizedAccessException.  <a href="#a3077a786044bdd530ad50dbd615f8beb">More...</a><br /></td></tr>
-<tr class="separator:a3077a786044bdd530ad50dbd615f8beb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab1d580a971a86c8e5b3c7c189aa65381"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/daa/class_authority_controller_1_1_a_p_i_1_1_tokens.html#ab1d580a971a86c8e5b3c7c189aa65381">IsHasEnoughRigths</a> (string token, out string[] requesterRights, params string[] requiredRights)</td></tr>
-<tr class="memdesc:ab1d580a971a86c8e5b3c7c189aa65381"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check does this token has all requested rights. If token is not registred on this server then will throw UnauthorizedAccessException.  <a href="#ab1d580a971a86c8e5b3c7c189aa65381">More...</a><br /></td></tr>
-<tr class="separator:ab1d580a971a86c8e5b3c7c189aa65381"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b153378b97af2634e8dab9ff1fa48a5"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/daa/class_authority_controller_1_1_a_p_i_1_1_tokens.html#a8b153378b97af2634e8dab9ff1fa48a5">AuthorizeNewGuestToken</a> (<a class="el" href="../../db/df3/class_pipes_provider_1_1_server_1_1_transmission_controllers_1_1_broadcasting_server_transmission_controller.html">PipesProvider.Server.TransmissionControllers.BroadcastingServerTransmissionController</a> _)</td></tr>
-<tr class="memdesc:a8b153378b97af2634e8dab9ff1fa48a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Authorizing new token with guest's rights, and return information in query format.  <a href="#a8b153378b97af2634e8dab9ff1fa48a5">More...</a><br /></td></tr>
-<tr class="separator:a8b153378b97af2634e8dab9ff1fa48a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0ba1c2d69ffbc73d78b7b16735f7fb5a"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/daa/class_authority_controller_1_1_a_p_i_1_1_tokens.html#a0ba1c2d69ffbc73d78b7b16735f7fb5a">AuthorizeNewGuestToken</a> ()</td></tr>
-<tr class="memdesc:a0ba1c2d69ffbc73d78b7b16735f7fb5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Authorizing new token with guest's rights, and return information in query format.  <a href="#a0ba1c2d69ffbc73d78b7b16735f7fb5a">More...</a><br /></td></tr>
-<tr class="separator:a0ba1c2d69ffbc73d78b7b16735f7fb5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b5d3ce957b4abd722906e4c7c67a439"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/daa/class_authority_controller_1_1_a_p_i_1_1_tokens.html#a5b5d3ce957b4abd722906e4c7c67a439">IsHasEnoughRigths</a> (string token, out <a class="el" href="../../dd/d42/class_authority_controller_1_1_data_1_1_temporal_1_1_token_info.html">TokenInfo</a> tokenInfo, out string error, params string[] requiredRights)</td></tr>
+<tr class="memdesc:a5b5d3ce957b4abd722906e4c7c67a439"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks does a token has all requested rights.  <a href="#a5b5d3ce957b4abd722906e4c7c67a439">More...</a><br /></td></tr>
+<tr class="separator:a5b5d3ce957b4abd722906e4c7c67a439"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90a5463500b853fefaa2564a0213579c"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/daa/class_authority_controller_1_1_a_p_i_1_1_tokens.html#a90a5463500b853fefaa2564a0213579c">IsHasEnoughRigths</a> (string token, out <a class="el" href="../../dd/d42/class_authority_controller_1_1_data_1_1_temporal_1_1_token_info.html">TokenInfo</a> tokenInfo, params string[] requiredRights)</td></tr>
+<tr class="memdesc:a90a5463500b853fefaa2564a0213579c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks does a token has all requested rights.  <a href="#a90a5463500b853fefaa2564a0213579c">More...</a><br /></td></tr>
+<tr class="separator:a90a5463500b853fefaa2564a0213579c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ce1e0ad271483413331e2aec74fd98e"><td class="memItemLeft" align="right" valign="top">static byte []&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/daa/class_authority_controller_1_1_a_p_i_1_1_tokens.html#a1ce1e0ad271483413331e2aec74fd98e">AuthorizeNewGuestToken</a> (<a class="el" href="../../db/da0/class_pipes_provider_1_1_server_1_1_transmission_controllers_1_1_broadcast_transmission_controller.html">BroadcastTransmissionController</a> _)</td></tr>
+<tr class="memdesc:a1ce1e0ad271483413331e2aec74fd98e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Authorizes a new token with guests rights and returns an information in a query format.  <a href="#a1ce1e0ad271483413331e2aec74fd98e">More...</a><br /></td></tr>
+<tr class="separator:a1ce1e0ad271483413331e2aec74fd98e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a314f7daa5dc69f422174479e48c11d54"><td class="memItemLeft" align="right" valign="top">static byte []&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/daa/class_authority_controller_1_1_a_p_i_1_1_tokens.html#a314f7daa5dc69f422174479e48c11d54">AuthorizeNewGuestToken</a> ()</td></tr>
+<tr class="memdesc:a314f7daa5dc69f422174479e48c11d54"><td class="mdescLeft">&#160;</td><td class="mdescRight">Authorizes a new token with guests rights and returns an information in a query format.  <a href="#a314f7daa5dc69f422174479e48c11d54">More...</a><br /></td></tr>
+<tr class="separator:a314f7daa5dc69f422174479e48c11d54"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a8b153378b97af2634e8dab9ff1fa48a5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8b153378b97af2634e8dab9ff1fa48a5">&#9670;&nbsp;</a></span>AuthorizeNewGuestToken() <span class="overload">[1/2]</span></h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Provides an <a class="el" href="../../d0/dac/namespace_authority_controller_1_1_a_p_i.html">API</a> for work with security tokens. </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a1ce1e0ad271483413331e2aec74fd98e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ce1e0ad271483413331e2aec74fd98e">&#9670;&nbsp;</a></span>AuthorizeNewGuestToken() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -121,9 +126,9 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static string AuthorityController.API.Tokens.AuthorizeNewGuestToken </td>
+          <td class="memname">static byte [] AuthorityController.API.Tokens.AuthorizeNewGuestToken </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../db/df3/class_pipes_provider_1_1_server_1_1_transmission_controllers_1_1_broadcasting_server_transmission_controller.html">PipesProvider.Server.TransmissionControllers.BroadcastingServerTransmissionController</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../db/da0/class_pipes_provider_1_1_server_1_1_transmission_controllers_1_1_broadcast_transmission_controller.html">BroadcastTransmissionController</a>&#160;</td>
           <td class="paramname"><em>_</em></td><td>)</td>
           <td></td>
         </tr>
@@ -135,19 +140,20 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Authorizing new token with guest's rights, and return information in query format. </p>
+<p>Authorizes a new token with guests rights and returns an information in a query format. </p>
+<p>Mades <code>AuthorizeNewGuestToken</code> comatible to the BroadcastTransmissionController handler. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">_</td><td>Droped param not relative to this broadcasting.</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>Token that can be used by client in queries.</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>A token that can be used by client in queries.</dd></dl>
 
 </div>
 </div>
-<a id="a0ba1c2d69ffbc73d78b7b16735f7fb5a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0ba1c2d69ffbc73d78b7b16735f7fb5a">&#9670;&nbsp;</a></span>AuthorizeNewGuestToken() <span class="overload">[2/2]</span></h2>
+<a id="a314f7daa5dc69f422174479e48c11d54"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a314f7daa5dc69f422174479e48c11d54">&#9670;&nbsp;</a></span>AuthorizeNewGuestToken() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -156,7 +162,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static string AuthorityController.API.Tokens.AuthorizeNewGuestToken </td>
+          <td class="memname">static byte [] AuthorityController.API.Tokens.AuthorizeNewGuestToken </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -169,13 +175,13 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Authorizing new token with guest's rights, and return information in query format. </p>
-<dl class="section return"><dt>Returns</dt><dd>Token that can be used by client in queries.</dd></dl>
+<p>Authorizes a new token with guests rights and returns an information in a query format. </p>
+<dl class="section return"><dt>Returns</dt><dd>A query in a binary format that contains a token's data. </dd></dl>
 
 </div>
 </div>
-<a id="a3077a786044bdd530ad50dbd615f8beb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3077a786044bdd530ad50dbd615f8beb">&#9670;&nbsp;</a></span>IsHasEnoughRigths() <span class="overload">[1/2]</span></h2>
+<a id="a5b5d3ce957b4abd722906e4c7c67a439"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b5d3ce957b4abd722906e4c7c67a439">&#9670;&nbsp;</a></span>IsHasEnoughRigths() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -192,8 +198,8 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">out string []&#160;</td>
-          <td class="paramname"><em>requesterRights</em>, </td>
+          <td class="paramtype">out <a class="el" href="../../dd/d42/class_authority_controller_1_1_data_1_1_temporal_1_1_token_info.html">TokenInfo</a>&#160;</td>
+          <td class="paramname"><em>tokenInfo</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -220,22 +226,28 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Check does this token has all requested rights. If token is not registred on this server then will throw UnauthorizedAccessException. </p>
+<p>Checks does a token has all requested rights. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">token</td><td>Unitque token of the user.</td></tr>
-    <tr><td class="paramname">error</td><td>Error that describe a reasone of fail. Could be send backward to client.</td></tr>
-    <tr><td class="paramname">requesterRights</td><td>Rights detected to that token.</td></tr>
-    <tr><td class="paramname">requiredRights</td><td>Array that contain the rights that need to by existed.</td></tr>
+    <tr><td class="paramname">token</td><td>An unique token privided to some user. </td></tr>
+    <tr><td class="paramname">error</td><td>An error that describe a reasone of fail. Could be send backward to client. </td></tr>
+    <tr><td class="paramname">tokenInfo</td><td>A found information about the token. Includs rights provided to the token. </td></tr>
+    <tr><td class="paramname">requiredRights</td><td>Rights required from the token to passing through. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">UnauthorizedAccessException</td><td>Occurs in case if the token not registred at the server. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A result of check.</dd></dl>
 
 </div>
 </div>
-<a id="ab1d580a971a86c8e5b3c7c189aa65381"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab1d580a971a86c8e5b3c7c189aa65381">&#9670;&nbsp;</a></span>IsHasEnoughRigths() <span class="overload">[2/2]</span></h2>
+<a id="a90a5463500b853fefaa2564a0213579c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90a5463500b853fefaa2564a0213579c">&#9670;&nbsp;</a></span>IsHasEnoughRigths() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -252,8 +264,8 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">out string []&#160;</td>
-          <td class="paramname"><em>requesterRights</em>, </td>
+          <td class="paramtype">out <a class="el" href="../../dd/d42/class_authority_controller_1_1_data_1_1_temporal_1_1_token_info.html">TokenInfo</a>&#160;</td>
+          <td class="paramname"><em>tokenInfo</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -274,21 +286,27 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Check does this token has all requested rights. If token is not registred on this server then will throw UnauthorizedAccessException. </p>
+<p>Checks does a token has all requested rights. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">token</td><td></td></tr>
-    <tr><td class="paramname">requiredRights</td><td></td></tr>
-    <tr><td class="paramname">requesterRights</td><td>Rights detected to that token.</td></tr>
+    <tr><td class="paramname">token</td><td>A token for check. </td></tr>
+    <tr><td class="paramname">requiredRights</td><td>Rights required from the token to passing through. </td></tr>
+    <tr><td class="paramname">tokenInfo</td><td>A found information about the token. Includs rights provided to the token. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">UnauthorizedAccessException</td><td>Occurs in case if the token not registred at the server. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A result of check.</dd></dl>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/Work/GitHub/doloro-networking-framework/Addons/AuthorityController/API/Tokens.cs</li>
+<li>doloro-networking-framework/Addons/AuthorityController/API/Tokens.cs</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

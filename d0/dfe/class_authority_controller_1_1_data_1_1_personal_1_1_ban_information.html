@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Doloro Networking Framework
-   &#160;<span id="projectnumber">1.0.3</span>
+   &#160;<span id="projectnumber">1.0.0</span>
    </div>
    <div id="projectbrief">Easy | Fast | Protected</div>
   </td>
@@ -91,6 +91,7 @@ $(document).ready(function(){initNavTree('d0/dfe/class_authority_controller_1_1_
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="../../d9/d7b/class_authority_controller_1_1_data_1_1_personal_1_1_ban_information-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -103,8 +104,8 @@ $(document).ready(function(){initNavTree('d0/dfe/class_authority_controller_1_1_
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a127a28a1db99b43e2540f18949921a7d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dfe/class_authority_controller_1_1_data_1_1_personal_1_1_ban_information.html#a127a28a1db99b43e2540f18949921a7d">Duration</a> { <b>Temporary</b>, 
-<b>Permanent</b>
+<tr class="memitem:a127a28a1db99b43e2540f18949921a7d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dfe/class_authority_controller_1_1_data_1_1_personal_1_1_ban_information.html#a127a28a1db99b43e2540f18949921a7d">Duration</a> { <a class="el" href="../../d0/dfe/class_authority_controller_1_1_data_1_1_personal_1_1_ban_information.html#a127a28a1db99b43e2540f18949921a7da10d85d7664a911bcaec89732098c269a">Duration.Temporary</a>, 
+<a class="el" href="../../d0/dfe/class_authority_controller_1_1_data_1_1_personal_1_1_ban_information.html#a127a28a1db99b43e2540f18949921a7da23adaa457573eeb089c33214c90d3013">Duration.Permanent</a>
  }</td></tr>
 <tr class="memdesc:a127a28a1db99b43e2540f18949921a7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ban's duration mode.  <a href="../../d0/dfe/class_authority_controller_1_1_data_1_1_personal_1_1_ban_information.html#a127a28a1db99b43e2540f18949921a7d">More...</a><br /></td></tr>
 <tr class="separator:a127a28a1db99b43e2540f18949921a7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -114,9 +115,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:af71a082c91c5d96b262ccbafe22c821a"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dfe/class_authority_controller_1_1_data_1_1_personal_1_1_ban_information.html#af71a082c91c5d96b262ccbafe22c821a">IsBanned</a> (<a class="el" href="../../df/db1/class_authority_controller_1_1_data_1_1_personal_1_1_user.html">User</a> user, string rightCode)</td></tr>
 <tr class="memdesc:af71a082c91c5d96b262ccbafe22c821a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check permition for action.  <a href="#af71a082c91c5d96b262ccbafe22c821a">More...</a><br /></td></tr>
 <tr class="separator:af71a082c91c5d96b262ccbafe22c821a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a70cc71c093fb9f5407b60a88a8361a9b"><td class="memItemLeft" align="right" valign="top">static async Task&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dfe/class_authority_controller_1_1_data_1_1_personal_1_1_ban_information.html#a70cc71c093fb9f5407b60a88a8361a9b">RecieveServerDataAsync</a> (<a class="el" href="../../df/db1/class_authority_controller_1_1_data_1_1_personal_1_1_user.html">User</a> user, System.Action&lt; <a class="el" href="../../d0/dfe/class_authority_controller_1_1_data_1_1_personal_1_1_ban_information.html">BanInformation</a> &gt; callback)</td></tr>
-<tr class="memdesc:a70cc71c093fb9f5407b60a88a8361a9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Recieving data from connected SQL server based on user profile meta.  <a href="#a70cc71c093fb9f5407b60a88a8361a9b">More...</a><br /></td></tr>
-<tr class="separator:a70cc71c093fb9f5407b60a88a8361a9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25edcadffec2f1e0ea8e59bf83713276"><td class="memItemLeft" align="right" valign="top">static async Task&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dfe/class_authority_controller_1_1_data_1_1_personal_1_1_ban_information.html#a25edcadffec2f1e0ea8e59bf83713276">RecieveServerDataAsync</a> (<a class="el" href="../../df/db1/class_authority_controller_1_1_data_1_1_personal_1_1_user.html">User</a> user, Action&lt; <a class="el" href="../../d0/dfe/class_authority_controller_1_1_data_1_1_personal_1_1_ban_information.html">BanInformation</a> &gt; callback)</td></tr>
+<tr class="memdesc:a25edcadffec2f1e0ea8e59bf83713276"><td class="mdescLeft">&#160;</td><td class="mdescRight">Recieving data from connected SQL server based on user profile meta.  <a href="#a25edcadffec2f1e0ea8e59bf83713276">More...</a><br /></td></tr>
+<tr class="separator:a25edcadffec2f1e0ea8e59bf83713276"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -144,6 +145,12 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a3bfad0aa4906e8e60de00e93e4ee52a8"><td class="memItemLeft" align="right" valign="top">string []&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dfe/class_authority_controller_1_1_data_1_1_personal_1_1_ban_information.html#a3bfad0aa4906e8e60de00e93e4ee52a8">blockedRights</a></td></tr>
 <tr class="memdesc:a3bfad0aa4906e8e60de00e93e4ee52a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rights that was blocked for this user.  <a href="#a3bfad0aa4906e8e60de00e93e4ee52a8">More...</a><br /></td></tr>
 <tr class="separator:a3bfad0aa4906e8e60de00e93e4ee52a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:aec6223e9d7758defd627161755a0f456"><td class="memItemLeft" align="right" valign="top">static Type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dfe/class_authority_controller_1_1_data_1_1_personal_1_1_ban_information.html#aec6223e9d7758defd627161755a0f456">GlobalType</a> = typeof(<a class="el" href="../../d0/dfe/class_authority_controller_1_1_data_1_1_personal_1_1_ban_information.html">BanInformation</a>)</td></tr>
+<tr class="memdesc:aec6223e9d7758defd627161755a0f456"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of ban information. Apply your custom ban info type to this field to instinate required one.  <a href="#aec6223e9d7758defd627161755a0f456">More...</a><br /></td></tr>
+<tr class="separator:aec6223e9d7758defd627161755a0f456"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
 Properties</h2></td></tr>
@@ -184,6 +191,12 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Ban's duration mode. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a127a28a1db99b43e2540f18949921a7da10d85d7664a911bcaec89732098c269a"></a>Temporary&#160;</td><td class="fielddoc"><p>Ban that would auto exired when the time will pass. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a127a28a1db99b43e2540f18949921a7da23adaa457573eeb089c33214c90d3013"></a>Permanent&#160;</td><td class="fielddoc"><p>Ban that can't be exipred. Only diactivated. </p>
+</td></tr>
+</table>
 
 </div>
 </div>
@@ -234,8 +247,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="a70cc71c093fb9f5407b60a88a8361a9b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a70cc71c093fb9f5407b60a88a8361a9b">&#9670;&nbsp;</a></span>RecieveServerDataAsync()</h2>
+<a id="a25edcadffec2f1e0ea8e59bf83713276"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25edcadffec2f1e0ea8e59bf83713276">&#9670;&nbsp;</a></span>RecieveServerDataAsync()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -252,7 +265,7 @@ Properties</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">System.Action&lt; <a class="el" href="../../d0/dfe/class_authority_controller_1_1_data_1_1_personal_1_1_ban_information.html">BanInformation</a> &gt;&#160;</td>
+          <td class="paramtype">Action&lt; <a class="el" href="../../d0/dfe/class_authority_controller_1_1_data_1_1_personal_1_1_ban_information.html">BanInformation</a> &gt;&#160;</td>
           <td class="paramname"><em>callback</em>&#160;</td>
         </tr>
         <tr>
@@ -376,6 +389,30 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Date Time when this bun will be expired. </p>
+
+</div>
+</div>
+<a id="aec6223e9d7758defd627161755a0f456"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec6223e9d7758defd627161755a0f456">&#9670;&nbsp;</a></span>GlobalType</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Type AuthorityController.Data.Personal.BanInformation.GlobalType = typeof(<a class="el" href="../../d0/dfe/class_authority_controller_1_1_data_1_1_personal_1_1_ban_information.html">BanInformation</a>)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Type of ban information. Apply your custom ban info type to this field to instinate required one. </p>
 
 </div>
 </div>
@@ -510,7 +547,7 @@ Properties</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/Work/GitHub/doloro-networking-framework/Addons/AuthorityController/Data/Personal/BanInformation.cs</li>
+<li>doloro-networking-framework/Addons/AuthorityController/Data/Personal/BanInformation.cs</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

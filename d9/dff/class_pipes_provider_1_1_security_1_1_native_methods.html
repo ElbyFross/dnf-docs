@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Doloro Networking Framework
-   &#160;<span id="projectnumber">1.0.3</span>
+   &#160;<span id="projectnumber">1.0.0</span>
    </div>
    <div id="projectbrief">Easy | Fast | Protected</div>
   </td>
@@ -100,26 +100,283 @@ $(document).ready(function(){initNavTree('d9/dff/class_pipes_provider_1_1_securi
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aa8cbc36f4c83e56734a90e4f82599a14"><td class="memItemLeft" align="right" valign="top"><a id="aa8cbc36f4c83e56734a90e4f82599a14"></a>
-static bool&#160;</td><td class="memItemRight" valign="bottom"><b>LogonUser</b> (String lpszUsername, String lpszDomain, String lpszPassword, int dwLogonType, int dwLogonProvider, out SafeAccessTokenHandle phToken)</td></tr>
+<tr class="memitem:aa8cbc36f4c83e56734a90e4f82599a14"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dff/class_pipes_provider_1_1_security_1_1_native_methods.html#aa8cbc36f4c83e56734a90e4f82599a14">LogonUser</a> (String lpszUsername, String lpszDomain, String lpszPassword, int dwLogonType, int dwLogonProvider, out SafeAccessTokenHandle phToken)</td></tr>
+<tr class="memdesc:aa8cbc36f4c83e56734a90e4f82599a14"><td class="mdescLeft">&#160;</td><td class="mdescRight">Native method that implement logon on NT machine.  <a href="#aa8cbc36f4c83e56734a90e4f82599a14">More...</a><br /></td></tr>
 <tr class="separator:aa8cbc36f4c83e56734a90e4f82599a14"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaa43d5b08023ba65a847545f43bca37a"><td class="memItemLeft" align="right" valign="top"><a id="aaa43d5b08023ba65a847545f43bca37a"></a>
-static uint&#160;</td><td class="memItemRight" valign="bottom"><b>LsaOpenPolicy</b> (<a class="el" href="../../d1/dc5/struct_pipes_provider_1_1_security_1_1_l_s_a_1_1_lsa_security_wrapper_1_1_l_s_a___u_n_i_c_o_d_e___s_t_r_i_n_g.html">LsaSecurityWrapper.LSA_UNICODE_STRING</a>[] SystemName, ref <a class="el" href="../../dc/d69/struct_pipes_provider_1_1_security_1_1_l_s_a_1_1_lsa_security_wrapper_1_1_l_s_a___o_b_j_e_c_t___a_t_t_r_i_b_u_t_e_s.html">LsaSecurityWrapper.LSA_OBJECT_ATTRIBUTES</a> ObjectAttributes, int AccessMask, out IntPtr PolicyHandle)</td></tr>
+<tr class="memitem:aaa43d5b08023ba65a847545f43bca37a"><td class="memItemLeft" align="right" valign="top">static uint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dff/class_pipes_provider_1_1_security_1_1_native_methods.html#aaa43d5b08023ba65a847545f43bca37a">LsaOpenPolicy</a> (<a class="el" href="../../d1/dc5/struct_pipes_provider_1_1_security_1_1_l_s_a_1_1_lsa_security_wrapper_1_1_l_s_a___u_n_i_c_o_d_e___s_t_r_i_n_g.html">LsaSecurityWrapper.LSA_UNICODE_STRING</a>[] SystemName, ref <a class="el" href="../../dc/d69/struct_pipes_provider_1_1_security_1_1_l_s_a_1_1_lsa_security_wrapper_1_1_l_s_a___o_b_j_e_c_t___a_t_t_r_i_b_u_t_e_s.html">LsaSecurityWrapper.LSA_OBJECT_ATTRIBUTES</a> ObjectAttributes, int AccessMask, out IntPtr PolicyHandle)</td></tr>
+<tr class="memdesc:aaa43d5b08023ba65a847545f43bca37a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return local sequirity authority policy.  <a href="#aaa43d5b08023ba65a847545f43bca37a">More...</a><br /></td></tr>
 <tr class="separator:aaa43d5b08023ba65a847545f43bca37a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a41f3c8a115df5b26700d24b6ead2d687"><td class="memItemLeft" align="right" valign="top"><a id="a41f3c8a115df5b26700d24b6ead2d687"></a>
-static uint&#160;</td><td class="memItemRight" valign="bottom"><b>LsaAddAccountRights</b> (LSA_HANDLE PolicyHandle, IntPtr pSID, <a class="el" href="../../d1/dc5/struct_pipes_provider_1_1_security_1_1_l_s_a_1_1_lsa_security_wrapper_1_1_l_s_a___u_n_i_c_o_d_e___s_t_r_i_n_g.html">LsaSecurityWrapper.LSA_UNICODE_STRING</a>[] UserRights, int CountOfRights)</td></tr>
+<tr class="memitem:a41f3c8a115df5b26700d24b6ead2d687"><td class="memItemLeft" align="right" valign="top">static uint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dff/class_pipes_provider_1_1_security_1_1_native_methods.html#a41f3c8a115df5b26700d24b6ead2d687">LsaAddAccountRights</a> (LSA_HANDLE PolicyHandle, IntPtr pSID, <a class="el" href="../../d1/dc5/struct_pipes_provider_1_1_security_1_1_l_s_a_1_1_lsa_security_wrapper_1_1_l_s_a___u_n_i_c_o_d_e___s_t_r_i_n_g.html">LsaSecurityWrapper.LSA_UNICODE_STRING</a>[] UserRights, int CountOfRights)</td></tr>
+<tr class="memdesc:a41f3c8a115df5b26700d24b6ead2d687"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adding rights to <a class="el" href="../../d3/de5/namespace_pipes_provider_1_1_security_1_1_l_s_a.html">LSA</a>.  <a href="#a41f3c8a115df5b26700d24b6ead2d687">More...</a><br /></td></tr>
 <tr class="separator:a41f3c8a115df5b26700d24b6ead2d687"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acf4899aa118ee28b7ea34a51af41a371"><td class="memItemLeft" align="right" valign="top"><a id="acf4899aa118ee28b7ea34a51af41a371"></a>
-static uint&#160;</td><td class="memItemRight" valign="bottom"><b>LsaRemoveAccountRights</b> (LSA_HANDLE PolicyHandle, IntPtr AccountSid, bool AllRights, <a class="el" href="../../d1/dc5/struct_pipes_provider_1_1_security_1_1_l_s_a_1_1_lsa_security_wrapper_1_1_l_s_a___u_n_i_c_o_d_e___s_t_r_i_n_g.html">LsaSecurityWrapper.LSA_UNICODE_STRING</a>[] UserRights, int CountOfRights)</td></tr>
+<tr class="memitem:acf4899aa118ee28b7ea34a51af41a371"><td class="memItemLeft" align="right" valign="top">static uint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dff/class_pipes_provider_1_1_security_1_1_native_methods.html#acf4899aa118ee28b7ea34a51af41a371">LsaRemoveAccountRights</a> (LSA_HANDLE PolicyHandle, IntPtr AccountSid, bool AllRights, <a class="el" href="../../d1/dc5/struct_pipes_provider_1_1_security_1_1_l_s_a_1_1_lsa_security_wrapper_1_1_l_s_a___u_n_i_c_o_d_e___s_t_r_i_n_g.html">LsaSecurityWrapper.LSA_UNICODE_STRING</a>[] UserRights, int CountOfRights)</td></tr>
+<tr class="memdesc:acf4899aa118ee28b7ea34a51af41a371"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removing rights from <a class="el" href="../../d3/de5/namespace_pipes_provider_1_1_security_1_1_l_s_a.html">LSA</a>.  <a href="#acf4899aa118ee28b7ea34a51af41a371">More...</a><br /></td></tr>
 <tr class="separator:acf4899aa118ee28b7ea34a51af41a371"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab24dd1a3005b9e4738c8a71b942e682a"><td class="memItemLeft" align="right" valign="top"><a id="ab24dd1a3005b9e4738c8a71b942e682a"></a>
-static int&#160;</td><td class="memItemRight" valign="bottom"><b>LsaClose</b> (IntPtr PolicyHandle)</td></tr>
+<tr class="memitem:ab24dd1a3005b9e4738c8a71b942e682a"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dff/class_pipes_provider_1_1_security_1_1_native_methods.html#ab24dd1a3005b9e4738c8a71b942e682a">LsaClose</a> (IntPtr PolicyHandle)</td></tr>
+<tr class="memdesc:ab24dd1a3005b9e4738c8a71b942e682a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Close <a class="el" href="../../d3/de5/namespace_pipes_provider_1_1_security_1_1_l_s_a.html">LSA</a> session.  <a href="#ab24dd1a3005b9e4738c8a71b942e682a">More...</a><br /></td></tr>
 <tr class="separator:ab24dd1a3005b9e4738c8a71b942e682a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Provide access to native metods used in security namespace. </p>
-</div><hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/Work/GitHub/doloro-networking-framework/Core/PipesProvider/Security/NativeMethods.cs</li>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="aa8cbc36f4c83e56734a90e4f82599a14"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8cbc36f4c83e56734a90e4f82599a14">&#9670;&nbsp;</a></span>LogonUser()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool PipesProvider.Security.NativeMethods.LogonUser </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>lpszUsername</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>lpszDomain</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>lpszPassword</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>dwLogonType</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>dwLogonProvider</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">out SafeAccessTokenHandle&#160;</td>
+          <td class="paramname"><em>phToken</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Native method that implement logon on NT machine. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">lpszUsername</td><td></td></tr>
+    <tr><td class="paramname">lpszDomain</td><td></td></tr>
+    <tr><td class="paramname">lpszPassword</td><td></td></tr>
+    <tr><td class="paramname">dwLogonType</td><td></td></tr>
+    <tr><td class="paramname">dwLogonProvider</td><td></td></tr>
+    <tr><td class="paramname">phToken</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a41f3c8a115df5b26700d24b6ead2d687"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a41f3c8a115df5b26700d24b6ead2d687">&#9670;&nbsp;</a></span>LsaAddAccountRights()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">static uint PipesProvider.Security.NativeMethods.LsaAddAccountRights </td>
+          <td>(</td>
+          <td class="paramtype">LSA_HANDLE&#160;</td>
+          <td class="paramname"><em>PolicyHandle</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>pSID</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d1/dc5/struct_pipes_provider_1_1_security_1_1_l_s_a_1_1_lsa_security_wrapper_1_1_l_s_a___u_n_i_c_o_d_e___s_t_r_i_n_g.html">LsaSecurityWrapper.LSA_UNICODE_STRING</a> []&#160;</td>
+          <td class="paramname"><em>UserRights</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>CountOfRights</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Adding rights to <a class="el" href="../../d3/de5/namespace_pipes_provider_1_1_security_1_1_l_s_a.html">LSA</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">PolicyHandle</td><td></td></tr>
+    <tr><td class="paramname">pSID</td><td></td></tr>
+    <tr><td class="paramname">UserRights</td><td></td></tr>
+    <tr><td class="paramname">CountOfRights</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="ab24dd1a3005b9e4738c8a71b942e682a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab24dd1a3005b9e4738c8a71b942e682a">&#9670;&nbsp;</a></span>LsaClose()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int PipesProvider.Security.NativeMethods.LsaClose </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>PolicyHandle</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Close <a class="el" href="../../d3/de5/namespace_pipes_provider_1_1_security_1_1_l_s_a.html">LSA</a> session. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">PolicyHandle</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="aaa43d5b08023ba65a847545f43bca37a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa43d5b08023ba65a847545f43bca37a">&#9670;&nbsp;</a></span>LsaOpenPolicy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">static uint PipesProvider.Security.NativeMethods.LsaOpenPolicy </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d1/dc5/struct_pipes_provider_1_1_security_1_1_l_s_a_1_1_lsa_security_wrapper_1_1_l_s_a___u_n_i_c_o_d_e___s_t_r_i_n_g.html">LsaSecurityWrapper.LSA_UNICODE_STRING</a> []&#160;</td>
+          <td class="paramname"><em>SystemName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ref <a class="el" href="../../dc/d69/struct_pipes_provider_1_1_security_1_1_l_s_a_1_1_lsa_security_wrapper_1_1_l_s_a___o_b_j_e_c_t___a_t_t_r_i_b_u_t_e_s.html">LsaSecurityWrapper.LSA_OBJECT_ATTRIBUTES</a>&#160;</td>
+          <td class="paramname"><em>ObjectAttributes</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>AccessMask</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">out IntPtr&#160;</td>
+          <td class="paramname"><em>PolicyHandle</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return local sequirity authority policy. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">SystemName</td><td></td></tr>
+    <tr><td class="paramname">ObjectAttributes</td><td></td></tr>
+    <tr><td class="paramname">AccessMask</td><td></td></tr>
+    <tr><td class="paramname">PolicyHandle</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="acf4899aa118ee28b7ea34a51af41a371"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf4899aa118ee28b7ea34a51af41a371">&#9670;&nbsp;</a></span>LsaRemoveAccountRights()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">static uint PipesProvider.Security.NativeMethods.LsaRemoveAccountRights </td>
+          <td>(</td>
+          <td class="paramtype">LSA_HANDLE&#160;</td>
+          <td class="paramname"><em>PolicyHandle</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>AccountSid</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>AllRights</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d1/dc5/struct_pipes_provider_1_1_security_1_1_l_s_a_1_1_lsa_security_wrapper_1_1_l_s_a___u_n_i_c_o_d_e___s_t_r_i_n_g.html">LsaSecurityWrapper.LSA_UNICODE_STRING</a> []&#160;</td>
+          <td class="paramname"><em>UserRights</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>CountOfRights</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Removing rights from <a class="el" href="../../d3/de5/namespace_pipes_provider_1_1_security_1_1_l_s_a.html">LSA</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">PolicyHandle</td><td></td></tr>
+    <tr><td class="paramname">AccountSid</td><td></td></tr>
+    <tr><td class="paramname">AllRights</td><td></td></tr>
+    <tr><td class="paramname">UserRights</td><td></td></tr>
+    <tr><td class="paramname">CountOfRights</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>doloro-networking-framework/Core/PipesProvider/Security/NativeMethods.cs</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

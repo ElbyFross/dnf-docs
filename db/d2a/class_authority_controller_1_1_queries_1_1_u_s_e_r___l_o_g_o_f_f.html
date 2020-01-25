@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Doloro Networking Framework
-   &#160;<span id="projectnumber">1.0.3</span>
+   &#160;<span id="projectnumber">1.0.0</span>
    </div>
    <div id="projectbrief">Easy | Fast | Protected</div>
   </td>
@@ -113,12 +113,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a2cb738d74699241341b691cc55b57e1d"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d2a/class_authority_controller_1_1_queries_1_1_u_s_e_r___l_o_g_o_f_f.html#a2cb738d74699241341b691cc55b57e1d">Description</a> (string cultureKey)</td></tr>
 <tr class="memdesc:a2cb738d74699241341b691cc55b57e1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the description relative to the lenguage code or default if not found.  <a href="#a2cb738d74699241341b691cc55b57e1d">More...</a><br /></td></tr>
 <tr class="separator:a2cb738d74699241341b691cc55b57e1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2e4d5a0f8ee93210522c41a38adbcce2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d2a/class_authority_controller_1_1_queries_1_1_u_s_e_r___l_o_g_o_f_f.html#a2e4d5a0f8ee93210522c41a38adbcce2">Execute</a> (<a class="el" href="../../d5/d61/struct_uniform_queries_1_1_query_part.html">QueryPart</a>[] queryParts)</td></tr>
-<tr class="memdesc:a2e4d5a0f8ee93210522c41a38adbcce2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Methods that process query.  <a href="#a2e4d5a0f8ee93210522c41a38adbcce2">More...</a><br /></td></tr>
-<tr class="separator:a2e4d5a0f8ee93210522c41a38adbcce2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afbfa78117d68ab2bd2728c78d31c1c58"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d2a/class_authority_controller_1_1_queries_1_1_u_s_e_r___l_o_g_o_f_f.html#afbfa78117d68ab2bd2728c78d31c1c58">IsTarget</a> (<a class="el" href="../../d5/d61/struct_uniform_queries_1_1_query_part.html">QueryPart</a>[] queryParts)</td></tr>
-<tr class="memdesc:afbfa78117d68ab2bd2728c78d31c1c58"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check by the entry params does it target Query Handler.  <a href="#afbfa78117d68ab2bd2728c78d31c1c58">More...</a><br /></td></tr>
-<tr class="separator:afbfa78117d68ab2bd2728c78d31c1c58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a099cfb3ca7d66e2112f62ed258585d54"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d2a/class_authority_controller_1_1_queries_1_1_u_s_e_r___l_o_g_o_f_f.html#a099cfb3ca7d66e2112f62ed258585d54">Execute</a> (object sender, <a class="el" href="../../dc/d0f/class_uniform_queries_1_1_query.html">Query</a> query)</td></tr>
+<tr class="memdesc:a099cfb3ca7d66e2112f62ed258585d54"><td class="mdescLeft">&#160;</td><td class="mdescRight">Methods that process query.  <a href="#a099cfb3ca7d66e2112f62ed258585d54">More...</a><br /></td></tr>
+<tr class="separator:a099cfb3ca7d66e2112f62ed258585d54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1cd453e9a16f5ab2df201b159cb00c92"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d2a/class_authority_controller_1_1_queries_1_1_u_s_e_r___l_o_g_o_f_f.html#a1cd453e9a16f5ab2df201b159cb00c92">IsTarget</a> (<a class="el" href="../../dc/d0f/class_uniform_queries_1_1_query.html">Query</a> query)</td></tr>
+<tr class="memdesc:a1cd453e9a16f5ab2df201b159cb00c92"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check by the entry params does it target Query <a class="el" href="../../dc/de8/class_authority_controller_1_1_queries_1_1_handler.html" title="Class that allow to simplify base operations with queries specified to AuthorityController. ">Handler</a>.  <a href="#a1cd453e9a16f5ab2df201b159cb00c92">More...</a><br /></td></tr>
+<tr class="separator:a1cd453e9a16f5ab2df201b159cb00c92"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -148,18 +148,18 @@ Static Public Member Functions</h2></td></tr>
 <p>Return the description relative to the lenguage code or default if not found. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">cultureKey</td><td></td></tr>
+    <tr><td class="paramname">cultureKey</td><td>Key of target culture.</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Description for relative culture.</dd></dl>
 
 <p>Implements <a class="el" href="../../d2/d1b/interface_uniform_queries_1_1_executable_1_1_i_query_handler.html#ae0e55919571d5456af31298394d241a9">UniformQueries.Executable.IQueryHandler</a>.</p>
 
 </div>
 </div>
-<a id="a2e4d5a0f8ee93210522c41a38adbcce2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2e4d5a0f8ee93210522c41a38adbcce2">&#9670;&nbsp;</a></span>Execute()</h2>
+<a id="a099cfb3ca7d66e2112f62ed258585d54"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a099cfb3ca7d66e2112f62ed258585d54">&#9670;&nbsp;</a></span>Execute()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -167,9 +167,19 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">void AuthorityController.Queries.USER_LOGOFF.Execute </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d5/d61/struct_uniform_queries_1_1_query_part.html">QueryPart</a> []&#160;</td>
-          <td class="paramname"><em>queryParts</em></td><td>)</td>
+          <td class="paramtype">object&#160;</td>
+          <td class="paramname"><em>sender</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="../../dc/d0f/class_uniform_queries_1_1_query.html">Query</a>&#160;</td>
+          <td class="paramname"><em>query</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -177,17 +187,18 @@ Static Public Member Functions</h2></td></tr>
 <p>Methods that process query. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">queryParts</td><td></td></tr>
+    <tr><td class="paramname">sender</td><td>Operator that call that operation</td></tr>
+    <tr><td class="paramname">query</td><td>Recived query.</td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Implements <a class="el" href="../../d2/d1b/interface_uniform_queries_1_1_executable_1_1_i_query_handler.html#a3268d72c0388f5e3debba4d73bdfe523">UniformQueries.Executable.IQueryHandler</a>.</p>
+<p>Implements <a class="el" href="../../d2/d1b/interface_uniform_queries_1_1_executable_1_1_i_query_handler.html#a35239db6d8357147250d5b1a13d8d344">UniformQueries.Executable.IQueryHandler</a>.</p>
 
 </div>
 </div>
-<a id="afbfa78117d68ab2bd2728c78d31c1c58"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afbfa78117d68ab2bd2728c78d31c1c58">&#9670;&nbsp;</a></span>IsTarget()</h2>
+<a id="a1cd453e9a16f5ab2df201b159cb00c92"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1cd453e9a16f5ab2df201b159cb00c92">&#9670;&nbsp;</a></span>IsTarget()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -195,23 +206,23 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">bool AuthorityController.Queries.USER_LOGOFF.IsTarget </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d5/d61/struct_uniform_queries_1_1_query_part.html">QueryPart</a> []&#160;</td>
-          <td class="paramname"><em>queryParts</em></td><td>)</td>
+          <td class="paramtype"><a class="el" href="../../dc/d0f/class_uniform_queries_1_1_query.html">Query</a>&#160;</td>
+          <td class="paramname"><em>query</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Check by the entry params does it target Query Handler. </p>
+<p>Check by the entry params does it target Query <a class="el" href="../../dc/de8/class_authority_controller_1_1_queries_1_1_handler.html" title="Class that allow to simplify base operations with queries specified to AuthorityController. ">Handler</a>. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">queryParts</td><td></td></tr>
+    <tr><td class="paramname">query</td><td>Recived query.</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Result of comparation.</dd></dl>
 
-<p>Implements <a class="el" href="../../d2/d1b/interface_uniform_queries_1_1_executable_1_1_i_query_handler.html#a0f43184bf3e306a7cbebc39098f044ee">UniformQueries.Executable.IQueryHandler</a>.</p>
+<p>Implements <a class="el" href="../../d2/d1b/interface_uniform_queries_1_1_executable_1_1_i_query_handler.html#ac77e72895985010a3bcf6665a4e36216">UniformQueries.Executable.IQueryHandler</a>.</p>
 
 </div>
 </div>
@@ -250,7 +261,7 @@ Static Public Member Functions</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/Work/GitHub/doloro-networking-framework/Addons/AuthorityController/Queries/USER_LOGOFF.cs</li>
+<li>doloro-networking-framework/Addons/AuthorityController/Queries/USER_LOGOFF.cs</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

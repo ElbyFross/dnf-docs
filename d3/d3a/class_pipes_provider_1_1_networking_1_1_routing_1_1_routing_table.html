@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Doloro Networking Framework
-   &#160;<span id="projectnumber">1.0.3</span>
+   &#160;<span id="projectnumber">1.0.0</span>
    </div>
    <div id="projectbrief">Easy | Fast | Protected</div>
   </td>
@@ -98,28 +98,28 @@ $(document).ready(function(){initNavTree('d3/d3a/class_pipes_provider_1_1_networ
 </div><!--header-->
 <div class="contents">
 
-<p>Object that contain routing instgructions. Provide API to work with file system.  
+<p>A descriptor of a network map that contains routes to some servers with defined rules when each routes should be used.  
  <a href="../../d3/d3a/class_pipes_provider_1_1_networking_1_1_routing_1_1_routing_table.html#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:afa326622fc49d66bcd375c08b2f6ff8b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d3a/class_pipes_provider_1_1_networking_1_1_routing_1_1_routing_table.html#afa326622fc49d66bcd375c08b2f6ff8b">TryGetRoutingInstruction</a> (string query, out <a class="el" href="../../d5/d2e/class_pipes_provider_1_1_networking_1_1_routing_1_1_instruction.html">Instruction</a> instruction)</td></tr>
-<tr class="memdesc:afa326622fc49d66bcd375c08b2f6ff8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Trying to find target routing instruction.  <a href="#afa326622fc49d66bcd375c08b2f6ff8b">More...</a><br /></td></tr>
-<tr class="separator:afa326622fc49d66bcd375c08b2f6ff8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c81890867614b70ce0e7ee82e99e517"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d3a/class_pipes_provider_1_1_networking_1_1_routing_1_1_routing_table.html#a7c81890867614b70ce0e7ee82e99e517">TryGetRoutingInstruction</a> (<a class="el" href="../../dc/d0f/class_uniform_queries_1_1_query.html">UniformQueries.Query</a> query, out <a class="el" href="../../d5/d2e/class_pipes_provider_1_1_networking_1_1_routing_1_1_instruction.html">Instruction</a> instruction)</td></tr>
+<tr class="memdesc:a7c81890867614b70ce0e7ee82e99e517"><td class="mdescLeft">&#160;</td><td class="mdescRight">Trying to find target routing instruction.  <a href="#a7c81890867614b70ce0e7ee82e99e517">More...</a><br /></td></tr>
+<tr class="separator:a7c81890867614b70ce0e7ee82e99e517"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a13c2778abb1d14e7e8e4a2ae51d315ac"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d3/d3a/class_pipes_provider_1_1_networking_1_1_routing_1_1_routing_table.html">RoutingTable</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d3a/class_pipes_provider_1_1_networking_1_1_routing_1_1_routing_table.html#a13c2778abb1d14e7e8e4a2ae51d315ac">LoadRoutingTables</a> (string directory, SearchOption searchOption)</td></tr>
-<tr class="memdesc:a13c2778abb1d14e7e8e4a2ae51d315ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Trying to load all routing tables from durectory. You could have several XML serialized routing tables. This way allow to share it via plugins.  <a href="#a13c2778abb1d14e7e8e4a2ae51d315ac">More...</a><br /></td></tr>
+<tr class="memdesc:a13c2778abb1d14e7e8e4a2ae51d315ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tries to load all routing tables from a directory. You could have several XML serialized routing tables. This way allows to share it via plugins.  <a href="#a13c2778abb1d14e7e8e4a2ae51d315ac">More...</a><br /></td></tr>
 <tr class="separator:a13c2778abb1d14e7e8e4a2ae51d315ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a28de144d3afcb29a69cd2a51b2af41a9"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d3a/class_pipes_provider_1_1_networking_1_1_routing_1_1_routing_table.html#a28de144d3afcb29a69cd2a51b2af41a9">SaveRoutingTable</a> (<a class="el" href="../../d3/d3a/class_pipes_provider_1_1_networking_1_1_routing_1_1_routing_table.html">RoutingTable</a> table)</td></tr>
-<tr class="memdesc:a28de144d3afcb29a69cd2a51b2af41a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save routing table by default directory app/resources/routing/ROUTING.xml  <a href="#a28de144d3afcb29a69cd2a51b2af41a9">More...</a><br /></td></tr>
+<tr class="memdesc:a28de144d3afcb29a69cd2a51b2af41a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves a routing table by the default directory app/resources/routing/ROUTING.xml  <a href="#a28de144d3afcb29a69cd2a51b2af41a9">More...</a><br /></td></tr>
 <tr class="separator:a28de144d3afcb29a69cd2a51b2af41a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:affae680ffe9710e88416323ef3aa8c0b"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d3a/class_pipes_provider_1_1_networking_1_1_routing_1_1_routing_table.html#affae680ffe9710e88416323ef3aa8c0b">SaveRoutingTable</a> (<a class="el" href="../../d3/d3a/class_pipes_provider_1_1_networking_1_1_routing_1_1_routing_table.html">RoutingTable</a> table, string name)</td></tr>
-<tr class="memdesc:affae680ffe9710e88416323ef3aa8c0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save routing table by default directory app/resources/routing  <a href="#affae680ffe9710e88416323ef3aa8c0b">More...</a><br /></td></tr>
+<tr class="memdesc:affae680ffe9710e88416323ef3aa8c0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves a routing table by the default directory app/resources/routing  <a href="#affae680ffe9710e88416323ef3aa8c0b">More...</a><br /></td></tr>
 <tr class="separator:affae680ffe9710e88416323ef3aa8c0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1fe9c42819cd5c5210b254c0d868b336"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d3a/class_pipes_provider_1_1_networking_1_1_routing_1_1_routing_table.html#a1fe9c42819cd5c5210b254c0d868b336">SaveRoutingTable</a> (<a class="el" href="../../d3/d3a/class_pipes_provider_1_1_networking_1_1_routing_1_1_routing_table.html">RoutingTable</a> table, string directory, string name)</td></tr>
-<tr class="memdesc:a1fe9c42819cd5c5210b254c0d868b336"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save routing table by directory.  <a href="#a1fe9c42819cd5c5210b254c0d868b336">More...</a><br /></td></tr>
+<tr class="memdesc:a1fe9c42819cd5c5210b254c0d868b336"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves a routing table by directory.  <a href="#a1fe9c42819cd5c5210b254c0d868b336">More...</a><br /></td></tr>
 <tr class="separator:a1fe9c42819cd5c5210b254c0d868b336"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a515b9ad19dc868afb6d47c762064fd96"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d3/d3a/class_pipes_provider_1_1_networking_1_1_routing_1_1_routing_table.html">RoutingTable</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d3a/class_pipes_provider_1_1_networking_1_1_routing_1_1_routing_table.html#a515b9ad19dc868afb6d47c762064fd96">operator+</a> (<a class="el" href="../../d3/d3a/class_pipes_provider_1_1_networking_1_1_routing_1_1_routing_table.html">RoutingTable</a> table0, <a class="el" href="../../d3/d3a/class_pipes_provider_1_1_networking_1_1_routing_1_1_routing_table.html">RoutingTable</a> table1)</td></tr>
 <tr class="memdesc:a515b9ad19dc868afb6d47c762064fd96"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adding instruction from second table to first one.  <a href="#a515b9ad19dc868afb6d47c762064fd96">More...</a><br /></td></tr>
@@ -138,7 +138,7 @@ Properties</h2></td></tr>
 <tr class="separator:af756c825762d5434f5b934a1c1b2d3eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Object that contain routing instgructions. Provide API to work with file system. </p>
+<div class="textblock"><p>A descriptor of a network map that contains routes to some servers with defined rules when each routes should be used. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a13c2778abb1d14e7e8e4a2ae51d315ac"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a13c2778abb1d14e7e8e4a2ae51d315ac">&#9670;&nbsp;</a></span>LoadRoutingTables()</h2>
@@ -174,15 +174,15 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Trying to load all routing tables from durectory. You could have several XML serialized routing tables. This way allow to share it via plugins. </p>
+<p>Tries to load all routing tables from a directory. You could have several XML serialized routing tables. This way allows to share it via plugins. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">directory</td><td>Root folder.</td></tr>
-    <tr><td class="paramname">searchOption</td><td>Defind does search will applied to child foldeers.</td></tr>
+    <tr><td class="paramname">directory</td><td>A root folder.</td></tr>
+    <tr><td class="paramname">searchOption</td><td>Definds does tne search will applied to child folders.</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>A found table. Null if not found.</dd></dl>
 
 </div>
 </div>
@@ -256,10 +256,10 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Save routing table by default directory app/resources/routing/ROUTING.xml </p>
+<p>Saves a routing table by the default directory app/resources/routing/ROUTING.xml </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">table</td><td>Source with instructions.</td></tr>
+    <tr><td class="paramname">table</td><td>A source with instructions.</td></tr>
   </table>
   </dd>
 </dl>
@@ -300,11 +300,11 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Save routing table by default directory app/resources/routing </p>
+<p>Saves a routing table by the default directory app/resources/routing </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">table</td><td>Source with instructions.</td></tr>
-    <tr><td class="paramname">name</td><td>Name of the file.</td></tr>
+    <tr><td class="paramname">table</td><td>A source with instructions.</td></tr>
+    <tr><td class="paramname">name</td><td>A name of the file.</td></tr>
   </table>
   </dd>
 </dl>
@@ -351,20 +351,20 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Save routing table by directory. </p>
+<p>Saves a routing table by directory. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">table</td><td>Source with instructions.</td></tr>
-    <tr><td class="paramname">directory</td><td>Target directory.</td></tr>
-    <tr><td class="paramname">name</td><td>Name of the file.</td></tr>
+    <tr><td class="paramname">table</td><td>A source with instructions.</td></tr>
+    <tr><td class="paramname">directory</td><td>A target directory.</td></tr>
+    <tr><td class="paramname">name</td><td>A name of the file.</td></tr>
   </table>
   </dd>
 </dl>
 
 </div>
 </div>
-<a id="afa326622fc49d66bcd375c08b2f6ff8b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afa326622fc49d66bcd375c08b2f6ff8b">&#9670;&nbsp;</a></span>TryGetRoutingInstruction()</h2>
+<a id="a7c81890867614b70ce0e7ee82e99e517"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c81890867614b70ce0e7ee82e99e517">&#9670;&nbsp;</a></span>TryGetRoutingInstruction()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -372,7 +372,7 @@ Properties</h2></td></tr>
         <tr>
           <td class="memname">bool PipesProvider.Networking.Routing.RoutingTable.TryGetRoutingInstruction </td>
           <td>(</td>
-          <td class="paramtype">string&#160;</td>
+          <td class="paramtype"><a class="el" href="../../dc/d0f/class_uniform_queries_1_1_query.html">UniformQueries.Query</a>&#160;</td>
           <td class="paramname"><em>query</em>, </td>
         </tr>
         <tr>
@@ -392,12 +392,12 @@ Properties</h2></td></tr>
 <p>Trying to find target routing instruction. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">query</td><td></td></tr>
-    <tr><td class="paramname">instruction</td><td></td></tr>
+    <tr><td class="paramname">query</td><td>A query that will used as source for comparing with a routing rules defined with <a class="el" href="../../d5/d2e/class_pipes_provider_1_1_networking_1_1_routing_1_1_instruction.html#aa98823848a42831095f92b639121cc67" title="An array that contain querie&#39;s body that need to be routed by this instruction. ">Instruction.queryPatterns</a> field. </td></tr>
+    <tr><td class="paramname">instruction</td><td>A found instruction. Returns the <a class="el" href="../../d5/d2e/class_pipes_provider_1_1_networking_1_1_routing_1_1_instruction.html#aad2d50b60ddcdd0c7d0671ced01a5480" title="Returns an empty instruction. ">Instruction.Empty</a> isntance in case if not found. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>A result of the search.</dd></dl>
 
 </div>
 </div>
@@ -444,7 +444,7 @@ Properties</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/Work/GitHub/doloro-networking-framework/Core/PipesProvider/Networking/Routing/RoutingTable.cs</li>
+<li>doloro-networking-framework/Core/PipesProvider/Networking/Routing/RoutingTable.cs</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

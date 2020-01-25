@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Doloro Networking Framework
-   &#160;<span id="projectnumber">1.0.3</span>
+   &#160;<span id="projectnumber">1.0.0</span>
    </div>
    <div id="projectbrief">Easy | Fast | Protected</div>
   </td>
@@ -90,7 +90,6 @@ $(document).ready(function(){initNavTree('df/db1/class_authority_controller_1_1_
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
-<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="../../dc/d06/class_authority_controller_1_1_data_1_1_personal_1_1_user-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -98,16 +97,16 @@ $(document).ready(function(){initNavTree('df/db1/class_authority_controller_1_1_
 </div><!--header-->
 <div class="contents">
 
-<p>Object that contain relevant data about user.  
+<p>An object that contains a relevant data about a user.  
  <a href="../../df/db1/class_authority_controller_1_1_data_1_1_personal_1_1_user.html#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a40e370338936914847b4ca8afb9cfc2f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/db1/class_authority_controller_1_1_data_1_1_personal_1_1_user.html#a40e370338936914847b4ca8afb9cfc2f">IsOpenPasswordCorrect</a> (string recivedPassword)</td></tr>
-<tr class="memdesc:a40e370338936914847b4ca8afb9cfc2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compare recived open password with stored to user.  <a href="#a40e370338936914847b4ca8afb9cfc2f">More...</a><br /></td></tr>
+<tr class="memdesc:a40e370338936914847b4ca8afb9cfc2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares a recived open password with a stored to an user.  <a href="#a40e370338936914847b4ca8afb9cfc2f">More...</a><br /></td></tr>
 <tr class="separator:a40e370338936914847b4ca8afb9cfc2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3acdb952f59613bae8bf253a3cada496"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/db1/class_authority_controller_1_1_data_1_1_personal_1_1_user.html#a3acdb952f59613bae8bf253a3cada496">IsHashedPasswordCorrect</a> (byte[] recivedHashedPassword)</td></tr>
-<tr class="memdesc:a3acdb952f59613bae8bf253a3cada496"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check does the recived password is the same as stored to user.  <a href="#a3acdb952f59613bae8bf253a3cada496">More...</a><br /></td></tr>
+<tr class="memdesc:a3acdb952f59613bae8bf253a3cada496"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks does the recived password is the same as a stored to an user.  <a href="#a3acdb952f59613bae8bf253a3cada496">More...</a><br /></td></tr>
 <tr class="separator:a3acdb952f59613bae8bf253a3cada496"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
@@ -119,38 +118,32 @@ Public Attributes</h2></td></tr>
 <tr class="memdesc:aa0cd14927a55efeafd187ca681bfd62d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Login of this user to access the system.  <a href="#aa0cd14927a55efeafd187ca681bfd62d">More...</a><br /></td></tr>
 <tr class="separator:aa0cd14927a55efeafd187ca681bfd62d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc14acc6d3441deb742264eb6cfc167c"><td class="memItemLeft" align="right" valign="top">byte []&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/db1/class_authority_controller_1_1_data_1_1_personal_1_1_user.html#abc14acc6d3441deb742264eb6cfc167c">password</a></td></tr>
-<tr class="memdesc:abc14acc6d3441deb742264eb6cfc167c"><td class="mdescLeft">&#160;</td><td class="mdescRight">ON CLIENT: Open password. Situable only if user provides profile as new. ON SERVER: Hashed and salted password that confirm user rights to use this account.  <a href="#abc14acc6d3441deb742264eb6cfc167c">More...</a><br /></td></tr>
+<tr class="memdesc:abc14acc6d3441deb742264eb6cfc167c"><td class="mdescLeft">&#160;</td><td class="mdescRight">ON CLIENT: An open password. Situable only if user provides a profile as new. ON SERVER: A hashed and salted password that confirms user rights to use this account.  <a href="#abc14acc6d3441deb742264eb6cfc167c">More...</a><br /></td></tr>
 <tr class="separator:abc14acc6d3441deb742264eb6cfc167c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a06913d22f1b4518cce99c356bdad38a0"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/db1/class_authority_controller_1_1_data_1_1_personal_1_1_user.html#a06913d22f1b4518cce99c356bdad38a0">firstName</a></td></tr>
-<tr class="memdesc:a06913d22f1b4518cce99c356bdad38a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of the user that will displayed in profile.  <a href="#a06913d22f1b4518cce99c356bdad38a0">More...</a><br /></td></tr>
+<tr class="memitem:a06913d22f1b4518cce99c356bdad38a0"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/db1/class_authority_controller_1_1_data_1_1_personal_1_1_user.html#a06913d22f1b4518cce99c356bdad38a0">firstName</a> = &quot;&quot;</td></tr>
+<tr class="memdesc:a06913d22f1b4518cce99c356bdad38a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">A name of the user that will displayed in the profile.  <a href="#a06913d22f1b4518cce99c356bdad38a0">More...</a><br /></td></tr>
 <tr class="separator:a06913d22f1b4518cce99c356bdad38a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac845744a6958089f44f79f3a1d9341d1"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/db1/class_authority_controller_1_1_data_1_1_personal_1_1_user.html#ac845744a6958089f44f79f3a1d9341d1">lastName</a></td></tr>
-<tr class="memdesc:ac845744a6958089f44f79f3a1d9341d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Last name that will be displayed in profile.  <a href="#ac845744a6958089f44f79f3a1d9341d1">More...</a><br /></td></tr>
+<tr class="memitem:ac845744a6958089f44f79f3a1d9341d1"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/db1/class_authority_controller_1_1_data_1_1_personal_1_1_user.html#ac845744a6958089f44f79f3a1d9341d1">lastName</a> = &quot;&quot;</td></tr>
+<tr class="memdesc:ac845744a6958089f44f79f3a1d9341d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">A last name that will be displayed in the profile.  <a href="#ac845744a6958089f44f79f3a1d9341d1">More...</a><br /></td></tr>
 <tr class="separator:ac845744a6958089f44f79f3a1d9341d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a937c23d9fddf843c49a69a6424bfda02"><td class="memItemLeft" align="right" valign="top">string []&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/db1/class_authority_controller_1_1_data_1_1_personal_1_1_user.html#a937c23d9fddf843c49a69a6424bfda02">rights</a> = new string[0]</td></tr>
-<tr class="memdesc:a937c23d9fddf843c49a69a6424bfda02"><td class="mdescLeft">&#160;</td><td class="mdescRight">Array of rigts' codes provided to this user.  <a href="#a937c23d9fddf843c49a69a6424bfda02">More...</a><br /></td></tr>
+<tr class="memdesc:a937c23d9fddf843c49a69a6424bfda02"><td class="mdescLeft">&#160;</td><td class="mdescRight">An array of rigts' codes provided to this user.  <a href="#a937c23d9fddf843c49a69a6424bfda02">More...</a><br /></td></tr>
 <tr class="separator:a937c23d9fddf843c49a69a6424bfda02"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aba2ff03e67ecf1732c4bdb625b441aac"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="../../d0/dfe/class_authority_controller_1_1_data_1_1_personal_1_1_ban_information.html">BanInformation</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/db1/class_authority_controller_1_1_data_1_1_personal_1_1_user.html#aba2ff03e67ecf1732c4bdb625b441aac">bans</a> = new List&lt;<a class="el" href="../../d0/dfe/class_authority_controller_1_1_data_1_1_personal_1_1_ban_information.html">BanInformation</a>&gt;()</td></tr>
-<tr class="memdesc:aba2ff03e67ecf1732c4bdb625b441aac"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of bans that would received by user.  <a href="#aba2ff03e67ecf1732c4bdb625b441aac">More...</a><br /></td></tr>
+<tr class="memdesc:aba2ff03e67ecf1732c4bdb625b441aac"><td class="mdescLeft">&#160;</td><td class="mdescRight">A list of bans that would received by a user.  <a href="#aba2ff03e67ecf1732c4bdb625b441aac">More...</a><br /></td></tr>
 <tr class="separator:aba2ff03e67ecf1732c4bdb625b441aac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2d4cda1ba0e47546cc1d1b2c5db82434"><td class="memItemLeft" align="right" valign="top">List&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/db1/class_authority_controller_1_1_data_1_1_personal_1_1_user.html#a2d4cda1ba0e47546cc1d1b2c5db82434">tokens</a> = new List&lt;string&gt;()</td></tr>
-<tr class="memdesc:a2d4cda1ba0e47546cc1d1b2c5db82434"><td class="mdescLeft">&#160;</td><td class="mdescRight">List that cont tokens provided to this user.  <a href="#a2d4cda1ba0e47546cc1d1b2c5db82434">More...</a><br /></td></tr>
+<tr class="memdesc:a2d4cda1ba0e47546cc1d1b2c5db82434"><td class="mdescLeft">&#160;</td><td class="mdescRight">A list that contains tokens provided to this user.  <a href="#a2d4cda1ba0e47546cc1d1b2c5db82434">More...</a><br /></td></tr>
 <tr class="separator:a2d4cda1ba0e47546cc1d1b2c5db82434"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
-Static Public Attributes</h2></td></tr>
-<tr class="memitem:a0ea20d5524b6ae3936197f88a270c6a8"><td class="memItemLeft" align="right" valign="top">static Type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/db1/class_authority_controller_1_1_data_1_1_personal_1_1_user.html#a0ea20d5524b6ae3936197f88a270c6a8">GlobalType</a> = typeof(<a class="el" href="../../df/db1/class_authority_controller_1_1_data_1_1_personal_1_1_user.html">User</a>)</td></tr>
-<tr class="memdesc:a0ea20d5524b6ae3936197f88a270c6a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of user. Apply your castom user to this field to instinate required one.  <a href="#a0ea20d5524b6ae3936197f88a270c6a8">More...</a><br /></td></tr>
-<tr class="separator:a0ea20d5524b6ae3936197f88a270c6a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:a163bc8322a4fa64abb1f169cde75e5a5"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/db1/class_authority_controller_1_1_data_1_1_personal_1_1_user.html#a163bc8322a4fa64abb1f169cde75e5a5">RightsStringFormat</a><code> [get, set]</code></td></tr>
-<tr class="memdesc:a163bc8322a4fa64abb1f169cde75e5a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rights array as formated string. Compatible with UDO.  <a href="#a163bc8322a4fa64abb1f169cde75e5a5">More...</a><br /></td></tr>
+<tr class="memdesc:a163bc8322a4fa64abb1f169cde75e5a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">A rights array as formated string. Compatible with the UniformDataOperator framework.  <a href="#a163bc8322a4fa64abb1f169cde75e5a5">More...</a><br /></td></tr>
 <tr class="separator:a163bc8322a4fa64abb1f169cde75e5a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Object that contain relevant data about user. </p>
+<div class="textblock"><p>An object that contains a relevant data about a user. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a3acdb952f59613bae8bf253a3cada496"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3acdb952f59613bae8bf253a3cada496">&#9670;&nbsp;</a></span>IsHashedPasswordCorrect()</h2>
@@ -168,14 +161,14 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Check does the recived password is the same as stored to user. </p>
+<p>Checks does the recived password is the same as a stored to an user. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">recivedHashedPassword</td><td></td></tr>
+    <tr><td class="paramname">recivedHashedPassword</td><td>A password received by a server in open format. Will hashed in compared with a stored one. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>A result of comparison.</dd></dl>
 
 </div>
 </div>
@@ -195,14 +188,14 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Compare recived open password with stored to user. </p>
+<p>Compares a recived open password with a stored to an user. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">recivedPassword</td><td></td></tr>
+    <tr><td class="paramname">recivedPassword</td><td>A password received by a server in open format. Will hashed in compared with a stored one. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>A result of comparison.</dd></dl>
 
 </div>
 </div>
@@ -219,7 +212,7 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>List of bans that would received by user. </p>
+<p>A list of bans that would received by a user. </p>
 
 </div>
 </div>
@@ -230,36 +223,12 @@ Properties</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">string AuthorityController.Data.Personal.User.firstName</td>
+          <td class="memname">string AuthorityController.Data.Personal.User.firstName = &quot;&quot;</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Name of the user that will displayed in profile. </p>
-
-</div>
-</div>
-<a id="a0ea20d5524b6ae3936197f88a270c6a8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0ea20d5524b6ae3936197f88a270c6a8">&#9670;&nbsp;</a></span>GlobalType</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Type AuthorityController.Data.Personal.User.GlobalType = typeof(<a class="el" href="../../df/db1/class_authority_controller_1_1_data_1_1_personal_1_1_user.html">User</a>)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Type of user. Apply your castom user to this field to instinate required one. </p>
+<p>A name of the user that will displayed in the profile. </p>
 
 </div>
 </div>
@@ -286,12 +255,12 @@ Properties</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">string AuthorityController.Data.Personal.User.lastName</td>
+          <td class="memname">string AuthorityController.Data.Personal.User.lastName = &quot;&quot;</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Last name that will be displayed in profile. </p>
+<p>A last name that will be displayed in the profile. </p>
 
 </div>
 </div>
@@ -323,7 +292,7 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>ON CLIENT: Open password. Situable only if user provides profile as new. ON SERVER: Hashed and salted password that confirm user rights to use this account. </p>
+<p>ON CLIENT: An open password. Situable only if user provides a profile as new. ON SERVER: A hashed and salted password that confirms user rights to use this account. </p>
 
 </div>
 </div>
@@ -339,7 +308,7 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Array of rigts' codes provided to this user. </p>
+<p>An array of rigts' codes provided to this user. </p>
 
 </div>
 </div>
@@ -355,7 +324,7 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>List that cont tokens provided to this user. </p>
+<p>A list that contains tokens provided to this user. </p>
 
 </div>
 </div>
@@ -380,12 +349,12 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Rights array as formated string. Compatible with UDO. </p>
+<p>A rights array as formated string. Compatible with the UniformDataOperator framework. </p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/Work/GitHub/doloro-networking-framework/Addons/AuthorityController/Data/Personal/User.cs</li>
+<li>doloro-networking-framework/Addons/AuthorityController/Data/Personal/User.cs</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

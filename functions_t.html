@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Doloro Networking Framework
-   &#160;<span id="projectnumber">1.0.3</span>
+   &#160;<span id="projectnumber">1.0.0</span>
    </div>
    <div id="projectbrief">Easy | Fast | Protected</div>
   </td>
@@ -90,15 +90,16 @@ $(document).ready(function(){initNavTree('functions_t.html','');});
 <div class="textblock">Here is a list of all documented class members with links to the class documentation for each member:</div>
 
 <h3><a id="index_t"></a>- t -</h3><ul>
-<li>TerminateAuthorizationTask()
-: <a class="el" href="dc/d75/class_uniform_queries_1_1_executable_1_1_query_processor.html#a7cbb30cf1452ec10f246d82145f0d90f">UniformQueries.Executable.QueryProcessor</a>
+<li>Terminate()
+: <a class="el" href="dc/d75/class_uniform_queries_1_1_executable_1_1_query_processor.html#a5840a0f05c182fcbaad33d989670583c">UniformQueries.Executable.QueryProcessor</a>
 </li>
-<li>TerminationToken
-: <a class="el" href="d6/d4b/class_authority_controller_1_1_session.html#a531bf4c153a454ac5236366a1e684619">AuthorityController.Session</a>
+<li>TerminateApp()
+: <a class="el" href="dc/d71/class_uniform_client_1_1_client_app_configurator.html#a06aef4eae78f5cc780627a605ea1a20e">UniformClient.ClientAppConfigurator</a>
+, <a class="el" href="d0/da8/class_uniform_server_1_1_server_app_configurator.html#a7434462ffa3241d77a733b9f2f158542">UniformServer.ServerAppConfigurator</a>
 </li>
-<li>thread
-: <a class="el" href="d4/deb/class_uniform_client_1_1_base_client.html#a458271823ca5e21612c0947e1db695a0">UniformClient.BaseClient</a>
-, <a class="el" href="d7/d32/class_uniform_server_1_1_base_server.html#a52485a2d70e615a5cbf720c952a8d62f">UniformServer.BaseServer</a>
+<li>TerminationTokenSource
+: <a class="el" href="d6/d4b/class_authority_controller_1_1_session.html#aa1c01bd2006647127003efa8856e0735">AuthorityController.Session</a>
+, <a class="el" href="dc/d71/class_uniform_client_1_1_client_app_configurator.html#ab6d26da2db05ea4396b443766c52e922">UniformClient.ClientAppConfigurator</a>
 </li>
 <li>ThreadingServerLoop_BroadcastingRelay()
 : <a class="el" href="d0/d04/class_uniform_server_1_1_standard_1_1_relay_server.html#a5940f8db2d25ff38ecdb7e5ab74063f9">UniformServer.Standard.RelayServer</a>
@@ -107,7 +108,7 @@ $(document).ready(function(){initNavTree('functions_t.html','');});
 : <a class="el" href="d0/d04/class_uniform_server_1_1_standard_1_1_relay_server.html#a8612def1490dc0c8e0b4535a54a09c18">UniformServer.Standard.RelayServer</a>
 </li>
 <li>ThreadingServerLoop_PP_Broadcast()
-: <a class="el" href="d5/dac/class_uniform_server_1_1_standard_1_1_broadcasting_server.html#af0b6354f992b05477ddbbead9a3b2250">UniformServer.Standard.BroadcastingServer</a>
+: <a class="el" href="d4/d08/class_uniform_server_1_1_standard_1_1_broadcast_server.html#aaf6fd6130c89d8dda7c24be7c0c94094">UniformServer.Standard.BroadcastServer</a>
 </li>
 <li>ThreadingServerLoop_PP_Input()
 : <a class="el" href="d7/d32/class_uniform_server_1_1_base_server.html#a6cf6b8472de3925d465737a7fc9a8842">UniformServer.BaseServer</a>
@@ -119,23 +120,14 @@ $(document).ready(function(){initNavTree('functions_t.html','');});
 : <a class="el" href="da/d0e/class_pipes_provider_1_1_client_1_1_transmission_line.html#aebf1f90d880307f803bdeb6e0020a95f">PipesProvider.Client.TransmissionLine</a>
 </li>
 <li>ThreadsCount
-: <a class="el" href="d7/d32/class_uniform_server_1_1_base_server.html#a31cc7d436bb2dd344ec275fd0fa0061e">UniformServer.BaseServer</a>
-</li>
-<li>threadsCount
-: <a class="el" href="d7/d32/class_uniform_server_1_1_base_server.html#aa40c02a1eec7eda4c36a8ac08119b414">UniformServer.BaseServer</a>
-</li>
-<li>threadSleepTime
-: <a class="el" href="d4/deb/class_uniform_client_1_1_base_client.html#a2c4762c1be5eac42b8b5d189530d0952">UniformClient.BaseClient</a>
-, <a class="el" href="d7/d32/class_uniform_server_1_1_base_server.html#a4dbe04636a763decfae22ddb2fe26c7a">UniformServer.BaseServer</a>
-</li>
-<li>ThreadStartRequest
-: <a class="el" href="d7/d32/class_uniform_server_1_1_base_server.html#a440a854a955ab7c5e563918c12e9b32c">UniformServer.BaseServer</a>
-</li>
-<li>ThreadTerminateRequest
-: <a class="el" href="d7/d32/class_uniform_server_1_1_base_server.html#a889c3aaa1cca7f4a9a4e32617516f4be">UniformServer.BaseServer</a>
+: <a class="el" href="d9/d01/class_pipes_provider_1_1_client_1_1_client_a_p_i.html#a925ddc8ae8f6007647d2fb73e5f099f9">PipesProvider.Client.ClientAPI</a>
+, <a class="el" href="d5/d17/class_pipes_provider_1_1_server_1_1_server_a_p_i.html#ad4e36b32363c463c1a13b3346a64b6b0">PipesProvider.Server.ServerAPI</a>
 </li>
 <li>title
 : <a class="el" href="d5/d2e/class_pipes_provider_1_1_networking_1_1_routing_1_1_instruction.html#afc65118594a1953afeef63ff3d8e4506">PipesProvider.Networking.Routing.Instruction</a>
+</li>
+<li>ToBroadcastMessage()
+: <a class="el" href="da/d28/class_base_queries_1_1_g_e_t___p_u_b_l_i_c___k_e_y.html#ada0f5c9f3313c0248bec11ba6bf39e63">BaseQueries.GET_PUBLIC_KEY</a>
 </li>
 <li>token
 : <a class="el" href="dd/d42/class_authority_controller_1_1_data_1_1_temporal_1_1_token_info.html#a9856f3e8590d95c39e2c2802b133fef4">AuthorityController.Data.Temporal.TokenInfo</a>
@@ -146,41 +138,50 @@ $(document).ready(function(){initNavTree('functions_t.html','');});
 <li>tokens
 : <a class="el" href="df/db1/class_authority_controller_1_1_data_1_1_personal_1_1_user.html#a2d4cda1ba0e47546cc1d1b2c5db82434">AuthorityController.Data.Personal.User</a>
 </li>
-<li>tokensInfo
-: <a class="el" href="d6/d4b/class_authority_controller_1_1_session.html#ab31f50a3b13fd88c44be84c0243ef6f9">AuthorityController.Session</a>
-</li>
 <li>TokenValidTimeMinutes
 : <a class="el" href="d1/daa/class_authority_controller_1_1_data_1_1_application_1_1_config.html#ad548f5fee544802b6c900eef6da88332">AuthorityController.Data.Application.Config</a>
 </li>
 <li>ToString()
-: <a class="el" href="d5/d61/struct_uniform_queries_1_1_query_part.html#acf5597530f693df3804fc2e638805245">UniformQueries.QueryPart</a>
+: <a class="el" href="d1/d9e/struct_pipes_provider_1_1_networking_1_1_query_container.html#aa7a7d3b7833556d88c001a7460a3cb48">PipesProvider.Networking.QueryContainer</a>
+, <a class="el" href="dc/d0f/class_uniform_queries_1_1_query.html#af6feed08b2f63db86370d7b7e6101d8a">UniformQueries.Query</a>
+, <a class="el" href="d5/d61/struct_uniform_queries_1_1_query_part.html#acf5597530f693df3804fc2e638805245">UniformQueries.QueryPart</a>
+</li>
+<li>TransmissionDirection
+: <a class="el" href="da/d0e/class_pipes_provider_1_1_client_1_1_transmission_line.html#adf7f55a4fb34b6503ef72d8b562b2ff5">PipesProvider.Client.TransmissionLine</a>
+</li>
+<li>TransmissionEncryption
+: <a class="el" href="da/d0e/class_pipes_provider_1_1_client_1_1_transmission_line.html#ab26fb13616fe1858a85a890d578fdcac">PipesProvider.Client.TransmissionLine</a>
 </li>
 <li>TransmissionLine()
-: <a class="el" href="da/d0e/class_pipes_provider_1_1_client_1_1_transmission_line.html#a8fe76e563974e7380fe2f717e48d694e">PipesProvider.Client.TransmissionLine</a>
+: <a class="el" href="da/d0e/class_pipes_provider_1_1_client_1_1_transmission_line.html#a1ddee4cabdb5dd82b000367586b52915">PipesProvider.Client.TransmissionLine</a>
+</li>
+<li>TransmissionToProcessing
+: <a class="el" href="d5/d17/class_pipes_provider_1_1_server_1_1_server_a_p_i.html#abd28f266d1ee7893c9d75f00a9467a11">PipesProvider.Server.ServerAPI</a>
 </li>
 <li>TryDequeQuery()
 : <a class="el" href="da/d0e/class_pipes_provider_1_1_client_1_1_transmission_line.html#a48c6395608b4d32a7d852c2fd6d911e2">PipesProvider.Client.TransmissionLine</a>
 </li>
-<li>TryDeserializeRSAKey()
-: <a class="el" href="d6/d06/class_pipes_provider_1_1_security_1_1_crypto.html#a35b28e8676c9dea2c0b7991671fd78a6">PipesProvider.Security.Crypto</a>
-</li>
 <li>TryFindQueryHandler()
-: <a class="el" href="df/d75/class_uniform_queries_1_1_a_p_i.html#a6b5e9796e2ed61c94fc49df8e6fec0d9">UniformQueries.API</a>
+: <a class="el" href="df/d75/class_uniform_queries_1_1_a_p_i.html#a57f3374b25b0b7dadf77677b8a3060b0">UniformQueries.API</a>
 </li>
 <li>TryGetBackwardDomain()
-: <a class="el" href="d5/d61/struct_uniform_queries_1_1_query_part.html#accd3b435809c426dd92456ffee0a996d">UniformQueries.QueryPart</a>
+: <a class="el" href="d5/d61/struct_uniform_queries_1_1_query_part.html#a531ae52d07e0d0c08e6555144488743e">UniformQueries.QueryPart</a>
 </li>
 <li>TryGetHostName()
 : <a class="el" href="d7/d6e/class_pipes_provider_1_1_networking_1_1_info.html#af2fa3a471e2f6245bed859c86b6f0c0e">PipesProvider.Networking.Info</a>
 </li>
 <li>TryGetParamValue()
 : <a class="el" href="df/d75/class_uniform_queries_1_1_a_p_i.html#a987eb23a48b90e542001cc12fcbc1ddc">UniformQueries.API</a>
+, <a class="el" href="dc/d0f/class_uniform_queries_1_1_query.html#a1cc1e2e7872238d210bec5a24f92d161">UniformQueries.Query</a>
+</li>
+<li>TryGetPropertyValue()
+: <a class="el" href="d3/d91/class_authority_controller_1_1_a_p_i_1_1_collections.html#a40b2949433c93c9326cf3a1b557404b6">AuthorityController.API.Collections</a>
 </li>
 <li>TryGetRoutingInstruction()
-: <a class="el" href="d3/d3a/class_pipes_provider_1_1_networking_1_1_routing_1_1_routing_table.html#afa326622fc49d66bcd375c08b2f6ff8b">PipesProvider.Networking.Routing.RoutingTable</a>
+: <a class="el" href="d3/d3a/class_pipes_provider_1_1_networking_1_1_routing_1_1_routing_table.html#a7c81890867614b70ce0e7ee82e99e517">PipesProvider.Networking.Routing.RoutingTable</a>
 </li>
 <li>TryGetServerTransmissionController()
-: <a class="el" href="d5/d17/class_pipes_provider_1_1_server_1_1_server_a_p_i.html#a6fba1adf18ce5938c6edcb29f28adfe5">PipesProvider.Server.ServerAPI</a>
+: <a class="el" href="d5/d17/class_pipes_provider_1_1_server_1_1_server_a_p_i.html#a235485c0b14ceadaedfe7d1096bf4651">PipesProvider.Server.ServerAPI</a>
 </li>
 <li>TryGetTokenInfo()
 : <a class="el" href="d6/d4b/class_authority_controller_1_1_session.html#abdd6c48f989b28cc9b3838dbe569edc6">AuthorityController.Session</a>
@@ -189,19 +190,28 @@ $(document).ready(function(){initNavTree('functions_t.html','');});
 : <a class="el" href="d6/d4b/class_authority_controller_1_1_session.html#a37157e74e3aee082b7adfb906ec69511">AuthorityController.Session</a>
 </li>
 <li>TryGetTransmissionLineByGUID()
-: <a class="el" href="d9/d01/class_pipes_provider_1_1_client_1_1_client_a_p_i.html#a745ac6dce4a89785c4b9306af84871e7">PipesProvider.Client.ClientAPI</a>
-</li>
-<li>TryLogon()
-: <a class="el" href="d6/d6b/class_pipes_provider_1_1_security_1_1_general.html#ab72cbd58c62e331b7602c6f99ad7cf54">PipesProvider.Security.General</a>
+: <a class="el" href="d9/d01/class_pipes_provider_1_1_client_1_1_client_a_p_i.html#aaef4fc40de7944a62882694d46116512">PipesProvider.Client.ClientAPI</a>
 </li>
 <li>TryLogonAs()
 : <a class="el" href="da/d0e/class_pipes_provider_1_1_client_1_1_transmission_line.html#a75c4a1aa309fbc60cccbe258a85a91b3">PipesProvider.Client.TransmissionLine</a>
 </li>
+<li>TryToDecryptAsync()
+: <a class="el" href="d6/da8/class_pipes_provider_1_1_security_1_1_encryption_1_1_enctyption_operators_handler.html#a0d2e1c70320718611a1359b55bd686be">PipesProvider.Security.Encryption.EnctyptionOperatorsHandler</a>
+</li>
 <li>TryToDetectTarget()
 : <a class="el" href="de/d56/class_pipes_provider_1_1_networking_1_1_routing_1_1_relay_instruction.html#a31f5ae59274888144f030d36e6b0a048">PipesProvider.Networking.Routing.RelayInstruction</a>
 </li>
+<li>TryToEncrypt()
+: <a class="el" href="d6/da8/class_pipes_provider_1_1_security_1_1_encryption_1_1_enctyption_operators_handler.html#a63563ac116c416d77a436d64609ab3a0">PipesProvider.Security.Encryption.EnctyptionOperatorsHandler</a>
+</li>
+<li>TryToEncryptAsync()
+: <a class="el" href="d6/da8/class_pipes_provider_1_1_security_1_1_encryption_1_1_enctyption_operators_handler.html#a87a9c10e9d3dc54606c8e3a6c8772f8b">PipesProvider.Security.Encryption.EnctyptionOperatorsHandler</a>
+</li>
+<li>TryToEncryptByReceivedQueryAsync()
+: <a class="el" href="d6/da8/class_pipes_provider_1_1_security_1_1_encryption_1_1_enctyption_operators_handler.html#adbd7fd7e05dfb0834de1f46357a5eec7">PipesProvider.Security.Encryption.EnctyptionOperatorsHandler</a>
+</li>
 <li>TryToFindUser()
-: <a class="el" href="dc/d75/class_authority_controller_1_1_a_p_i_1_1_local_users.html#af37939b7ade7b7be30f5ad8935cecdb3">AuthorityController.API.LocalUsers</a>
+: <a class="el" href="dc/d75/class_authority_controller_1_1_a_p_i_1_1_local_users.html#a9ce59e22a9d7f732ea20d2579ab57f48">AuthorityController.API.LocalUsers</a>
 </li>
 <li>TryToFindUserUniform()
 : <a class="el" href="dc/d75/class_authority_controller_1_1_a_p_i_1_1_local_users.html#a8bf53e0c8216de0a8f5244e11ccb90b5">AuthorityController.API.LocalUsers</a>
@@ -210,35 +220,35 @@ $(document).ready(function(){initNavTree('functions_t.html','');});
 : <a class="el" href="dd/df3/class_pipes_provider_1_1_networking_1_1_routing_1_1_partial_authorized_instruction.html#a3ac0a0b15a47f6cfbf26bd0dbabc9b97">PipesProvider.Networking.Routing.PartialAuthorizedInstruction</a>
 </li>
 <li>TryToGetGuestTokenAsync()
-: <a class="el" href="dd/df3/class_pipes_provider_1_1_networking_1_1_routing_1_1_partial_authorized_instruction.html#ac84ced39a0d2a20639a82596ef34a093">PipesProvider.Networking.Routing.PartialAuthorizedInstruction</a>
+: <a class="el" href="dd/df3/class_pipes_provider_1_1_networking_1_1_routing_1_1_partial_authorized_instruction.html#a3914abb673a069079675e1cd122eb875">PipesProvider.Networking.Routing.PartialAuthorizedInstruction</a>
 </li>
 <li>TryToLoad&lt; T &gt;()
 : <a class="el" href="dc/dd6/class_authority_controller_1_1_data_1_1_handler.html#aad3bc4d6c6017f4061261f15935da6dc">AuthorityController.Data.Handler</a>
 </li>
 <li>TryToLogon()
-: <a class="el" href="df/deb/class_pipes_provider_1_1_networking_1_1_routing_1_1_authorized_instruction.html#a067f546d69e4766868c1e28feef51acf">PipesProvider.Networking.Routing.AuthorizedInstruction</a>
+: <a class="el" href="df/deb/class_pipes_provider_1_1_networking_1_1_routing_1_1_authorized_instruction.html#addf69c3fea172cc9d8199097466a052f">PipesProvider.Networking.Routing.AuthorizedInstruction</a>
 </li>
 <li>TryToLogonAsync()
 : <a class="el" href="db/d30/class_authority_controller_1_1_queries_1_1_u_s_e_r___l_o_g_o_n_1_1_logon_processor.html#a5073849b4aec752f2fb1b68f11561985">AuthorityController.Queries.USER_LOGON.LogonProcessor</a>
-, <a class="el" href="df/deb/class_pipes_provider_1_1_networking_1_1_routing_1_1_authorized_instruction.html#a20e94ddf386abb937f4c725a094dc050">PipesProvider.Networking.Routing.AuthorizedInstruction</a>
+, <a class="el" href="df/deb/class_pipes_provider_1_1_networking_1_1_routing_1_1_authorized_instruction.html#af0656e72016ed0afac3239006cbbd4f9">PipesProvider.Networking.Routing.AuthorizedInstruction</a>
+</li>
+<li>TryToLogonAtRemoteDevice()
+: <a class="el" href="d6/d6b/class_pipes_provider_1_1_security_1_1_general.html#afaf9a10c8825983c5587055bdc32c2c3">PipesProvider.Security.General</a>
+</li>
+<li>TryToReciveTokenAsync()
+: <a class="el" href="d7/d42/class_base_queries_1_1_g_e_t___g_u_e_s_t___t_o_k_e_n_1_1_guest_token_processor.html#af9d9d6f5a3ca70f467099d6b8dac438b">BaseQueries.GET_GUEST_TOKEN.GuestTokenProcessor</a>
 </li>
 <li>TryToRegisterTransmissionLine()
-: <a class="el" href="d9/d01/class_pipes_provider_1_1_client_1_1_client_a_p_i.html#a70ffe69963e762ee828887856e119883">PipesProvider.Client.ClientAPI</a>
+: <a class="el" href="d9/d01/class_pipes_provider_1_1_client_1_1_client_a_p_i.html#a1124c06c45aa27ad775ca1693f8eaeef">PipesProvider.Client.ClientAPI</a>
 </li>
 <li>TryToUnregisterTransmissionLine()
 : <a class="el" href="d9/d01/class_pipes_provider_1_1_client_1_1_client_a_p_i.html#a20139222de5ce13aa336e7c4db174f91">PipesProvider.Client.ClientAPI</a>
-</li>
-<li>TryUpdatePublicKey()
-: <a class="el" href="d5/d2e/class_pipes_provider_1_1_networking_1_1_routing_1_1_instruction.html#a04ee08d3b41785e88679c6870c392266">PipesProvider.Networking.Routing.Instruction</a>
 </li>
 <li>TryXMLDeserizlize&lt; T &gt;()
 : <a class="el" href="dc/dd6/class_authority_controller_1_1_data_1_1_handler.html#a086874112fede63b9d3bb8c070698c55">AuthorityController.Data.Handler</a>
 </li>
 <li>TryXMLSerialize&lt; T &gt;()
 : <a class="el" href="dc/dd6/class_authority_controller_1_1_data_1_1_handler.html#a7f4e5dd2a2f300e566116810897e7f2f">AuthorityController.Data.Handler</a>
-</li>
-<li>TyGetPropertyValue()
-: <a class="el" href="d3/d91/class_authority_controller_1_1_a_p_i_1_1_collections.html#a65e8bd3790cb8576d37938f20dd792f4">AuthorityController.API.Collections</a>
 </li>
 </ul>
 </div><!-- contents -->

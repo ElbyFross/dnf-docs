@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Doloro Networking Framework
-   &#160;<span id="projectnumber">1.0.3</span>
+   &#160;<span id="projectnumber">1.0.0</span>
    </div>
    <div id="projectbrief">Easy | Fast | Protected</div>
   </td>
@@ -97,7 +97,7 @@ $(document).ready(function(){initNavTree('d0/d5b/class_pipes_provider_1_1_server
 </div><!--header-->
 <div class="contents">
 
-<p>Container that contain meta data about server instance.  
+<p>A controller that contains metadata about server instance and provides an API to manage it.  
  <a href="../../d0/d5b/class_pipes_provider_1_1_server_1_1_transmission_controllers_1_1_base_server_transmission_controller.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for PipesProvider.Server.TransmissionControllers.BaseServerTransmissionController:</div>
@@ -105,22 +105,25 @@ Inheritance diagram for PipesProvider.Server.TransmissionControllers.BaseServerT
  <div class="center">
   <img src="../../d0/d5b/class_pipes_provider_1_1_server_1_1_transmission_controllers_1_1_base_server_transmission_controller.png" usemap="#PipesProvider.Server.TransmissionControllers.BaseServerTransmissionController_map" alt=""/>
   <map id="PipesProvider.Server.TransmissionControllers.BaseServerTransmissionController_map" name="PipesProvider.Server.TransmissionControllers.BaseServerTransmissionController_map">
-<area href="../../db/df3/class_pipes_provider_1_1_server_1_1_transmission_controllers_1_1_broadcasting_server_transmission_controller.html" title="Transmission controller that situable for broadcasting. Every connection will call Message handler th..." alt="PipesProvider.Server.TransmissionControllers.BroadcastingServerTransmissionController" shape="rect" coords="0,56,520,80"/>
-<area href="../../dc/ddf/class_pipes_provider_1_1_server_1_1_transmission_controllers_1_1_client_to_server_transmission_controller.html" title="Controller that provide message&#39;s transmisssion from client to server. " alt="PipesProvider.Server.TransmissionControllers.ClientToServerTransmissionController" shape="rect" coords="530,56,1050,80"/>
-<area href="../../d5/d4e/class_pipes_provider_1_1_server_1_1_transmission_controllers_1_1_server_to_client_transmission_controller.html" title="Controller that provide message&#39;s transmisssion from server to client. " alt="PipesProvider.Server.TransmissionControllers.ServerToClientTransmissionController" shape="rect" coords="1060,56,1580,80"/>
+<area href="../../db/da0/class_pipes_provider_1_1_server_1_1_transmission_controllers_1_1_broadcast_transmission_controller.html" title="A transmission controller that suitable for broadcast. An every connection will calls GetMessage hand..." alt="PipesProvider.Server.TransmissionControllers.BroadcastTransmissionController" shape="rect" coords="0,56,492,80"/>
+<area href="../../dc/ddf/class_pipes_provider_1_1_server_1_1_transmission_controllers_1_1_client_to_server_transmission_controller.html" title="A controller that provides data transmission from a client to a server. " alt="PipesProvider.Server.TransmissionControllers.ClientToServerTransmissionController" shape="rect" coords="502,56,994,80"/>
+<area href="../../d5/d4e/class_pipes_provider_1_1_server_1_1_transmission_controllers_1_1_server_to_client_transmission_controller.html" title="A controller that provides data transmission from a server to a client. " alt="PipesProvider.Server.TransmissionControllers.ServerToClientTransmissionController" shape="rect" coords="1004,56,1496,80"/>
 </map>
  </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ad3ffb9dd45062b59d88dd08f9df90c5f"><td class="memItemLeft" align="right" valign="top"><a id="ad3ffb9dd45062b59d88dd08f9df90c5f"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>BaseServerTransmissionController</b> (IAsyncResult <a class="el" href="../../d0/d5b/class_pipes_provider_1_1_server_1_1_transmission_controllers_1_1_base_server_transmission_controller.html#afc45a2287e6fef24892a0aee8aa86f56">connectionMarker</a>, System.Action&lt; <a class="el" href="../../d0/d5b/class_pipes_provider_1_1_server_1_1_transmission_controllers_1_1_base_server_transmission_controller.html">BaseServerTransmissionController</a> &gt; <a class="el" href="../../d0/d5b/class_pipes_provider_1_1_server_1_1_transmission_controllers_1_1_base_server_transmission_controller.html#a632261255d8dfc87d93445180c6e2c9d">connectionCallback</a>, NamedPipeServerStream pipe, string <a class="el" href="../../d0/d5b/class_pipes_provider_1_1_server_1_1_transmission_controllers_1_1_base_server_transmission_controller.html#a4ce9911f1ad6814d3e5c9096d9ddde57">pipeName</a>)</td></tr>
-<tr class="separator:ad3ffb9dd45062b59d88dd08f9df90c5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd8c41b70a2f0000c0e0b24e3b37ba07"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d5b/class_pipes_provider_1_1_server_1_1_transmission_controllers_1_1_base_server_transmission_controller.html#acd8c41b70a2f0000c0e0b24e3b37ba07">BaseServerTransmissionController</a> ()</td></tr>
+<tr class="memdesc:acd8c41b70a2f0000c0e0b24e3b37ba07"><td class="mdescLeft">&#160;</td><td class="mdescRight">instiniate default server trnasmission controller.  <a href="#acd8c41b70a2f0000c0e0b24e3b37ba07">More...</a><br /></td></tr>
+<tr class="separator:acd8c41b70a2f0000c0e0b24e3b37ba07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62325561a75a79b4b2cd1cb8575276a6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d5b/class_pipes_provider_1_1_server_1_1_transmission_controllers_1_1_base_server_transmission_controller.html#a62325561a75a79b4b2cd1cb8575276a6">BaseServerTransmissionController</a> (IAsyncResult <a class="el" href="../../d0/d5b/class_pipes_provider_1_1_server_1_1_transmission_controllers_1_1_base_server_transmission_controller.html#afc45a2287e6fef24892a0aee8aa86f56">connectionMarker</a>, Action&lt; <a class="el" href="../../d0/d5b/class_pipes_provider_1_1_server_1_1_transmission_controllers_1_1_base_server_transmission_controller.html">BaseServerTransmissionController</a> &gt; <a class="el" href="../../d0/d5b/class_pipes_provider_1_1_server_1_1_transmission_controllers_1_1_base_server_transmission_controller.html#af1bd828667a8108b1bdaddd8dd3f5ac8">connectionCallback</a>, NamedPipeServerStream pipe, string pipeName)</td></tr>
+<tr class="memdesc:a62325561a75a79b4b2cd1cb8575276a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Instiniates a base transmission controller.  <a href="#a62325561a75a79b4b2cd1cb8575276a6">More...</a><br /></td></tr>
+<tr class="separator:a62325561a75a79b4b2cd1cb8575276a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6123ecf83e5ed7d39e8fe457681e3bfc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d5b/class_pipes_provider_1_1_server_1_1_transmission_controllers_1_1_base_server_transmission_controller.html#a6123ecf83e5ed7d39e8fe457681e3bfc">SetExpired</a> ()</td></tr>
-<tr class="memdesc:a6123ecf83e5ed7d39e8fe457681e3bfc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maeking transmission as expired. Line will be remaked.  <a href="#a6123ecf83e5ed7d39e8fe457681e3bfc">More...</a><br /></td></tr>
+<tr class="memdesc:a6123ecf83e5ed7d39e8fe457681e3bfc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Marks the transmission like expired. The line will be remaked.  <a href="#a6123ecf83e5ed7d39e8fe457681e3bfc">More...</a><br /></td></tr>
 <tr class="separator:a6123ecf83e5ed7d39e8fe457681e3bfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a838c1d62567059bbe92e9be3eca971d5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d5b/class_pipes_provider_1_1_server_1_1_transmission_controllers_1_1_base_server_transmission_controller.html#a838c1d62567059bbe92e9be3eca971d5">SetStoped</a> ()</td></tr>
-<tr class="memdesc:a838c1d62567059bbe92e9be3eca971d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Marking transmission as expired and stoped for full exclusion from automatic server operations.  <a href="#a838c1d62567059bbe92e9be3eca971d5">More...</a><br /></td></tr>
+<tr class="memdesc:a838c1d62567059bbe92e9be3eca971d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Marks the transmission as expired and stoped for full exclusion from automatic server operations.  <a href="#a838c1d62567059bbe92e9be3eca971d5">More...</a><br /></td></tr>
 <tr class="separator:a838c1d62567059bbe92e9be3eca971d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
@@ -128,31 +131,105 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:afc45a2287e6fef24892a0aee8aa86f56"><td class="memItemLeft" align="right" valign="top">IAsyncResult&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d5b/class_pipes_provider_1_1_server_1_1_transmission_controllers_1_1_base_server_transmission_controller.html#afc45a2287e6fef24892a0aee8aa86f56">connectionMarker</a></td></tr>
 <tr class="memdesc:afc45a2287e6fef24892a0aee8aa86f56"><td class="mdescLeft">&#160;</td><td class="mdescRight">Object that provide access to async connection.  <a href="#afc45a2287e6fef24892a0aee8aa86f56">More...</a><br /></td></tr>
 <tr class="separator:afc45a2287e6fef24892a0aee8aa86f56"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a632261255d8dfc87d93445180c6e2c9d"><td class="memItemLeft" align="right" valign="top">System.Action&lt; <a class="el" href="../../d0/d5b/class_pipes_provider_1_1_server_1_1_transmission_controllers_1_1_base_server_transmission_controller.html">BaseServerTransmissionController</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d5b/class_pipes_provider_1_1_server_1_1_transmission_controllers_1_1_base_server_transmission_controller.html#a632261255d8dfc87d93445180c6e2c9d">connectionCallback</a></td></tr>
-<tr class="memdesc:a632261255d8dfc87d93445180c6e2c9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delegate that will be called when connection will be established. ServerTransmissionMeta - meta data of transmission.  <a href="#a632261255d8dfc87d93445180c6e2c9d">More...</a><br /></td></tr>
-<tr class="separator:a632261255d8dfc87d93445180c6e2c9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a019f764411256a751f8a438076426a47"><td class="memItemLeft" align="right" valign="top">NamedPipeServerStream&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d5b/class_pipes_provider_1_1_server_1_1_transmission_controllers_1_1_base_server_transmission_controller.html#a019f764411256a751f8a438076426a47">pipeServer</a></td></tr>
-<tr class="memdesc:a019f764411256a751f8a438076426a47"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reference to created pipe.  <a href="#a019f764411256a751f8a438076426a47">More...</a><br /></td></tr>
-<tr class="separator:a019f764411256a751f8a438076426a47"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4ce9911f1ad6814d3e5c9096d9ddde57"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d5b/class_pipes_provider_1_1_server_1_1_transmission_controllers_1_1_base_server_transmission_controller.html#a4ce9911f1ad6814d3e5c9096d9ddde57">pipeName</a></td></tr>
-<tr class="memdesc:a4ce9911f1ad6814d3e5c9096d9ddde57"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of this connection.  <a href="#a4ce9911f1ad6814d3e5c9096d9ddde57">More...</a><br /></td></tr>
-<tr class="separator:a4ce9911f1ad6814d3e5c9096d9ddde57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1bd828667a8108b1bdaddd8dd3f5ac8"><td class="memItemLeft" align="right" valign="top">Action&lt; <a class="el" href="../../d0/d5b/class_pipes_provider_1_1_server_1_1_transmission_controllers_1_1_base_server_transmission_controller.html">BaseServerTransmissionController</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d5b/class_pipes_provider_1_1_server_1_1_transmission_controllers_1_1_base_server_transmission_controller.html#af1bd828667a8108b1bdaddd8dd3f5ac8">connectionCallback</a></td></tr>
+<tr class="memdesc:af1bd828667a8108b1bdaddd8dd3f5ac8"><td class="mdescLeft">&#160;</td><td class="mdescRight">A delegate that will be called when connection will be established. ServerTransmissionMeta - meta data of transmission.  <a href="#af1bd828667a8108b1bdaddd8dd3f5ac8">More...</a><br /></td></tr>
+<tr class="separator:af1bd828667a8108b1bdaddd8dd3f5ac8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
 Properties</h2></td></tr>
+<tr class="memitem:a8a8a55802514311f2f581c65d90fd05e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d5b/class_pipes_provider_1_1_server_1_1_transmission_controllers_1_1_base_server_transmission_controller.html#a8a8a55802514311f2f581c65d90fd05e">NewConnectionSearchAllowed</a> = true<code> [get, set]</code></td></tr>
+<tr class="memdesc:a8a8a55802514311f2f581c65d90fd05e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Marker that autorize new connection search.  <a href="#a8a8a55802514311f2f581c65d90fd05e">More...</a><br /></td></tr>
+<tr class="separator:a8a8a55802514311f2f581c65d90fd05e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7c38535dcb0b35826317061a780bb31"><td class="memItemLeft" align="right" valign="top">NamedPipeServerStream&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d5b/class_pipes_provider_1_1_server_1_1_transmission_controllers_1_1_base_server_transmission_controller.html#ab7c38535dcb0b35826317061a780bb31">PipeServer</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:ab7c38535dcb0b35826317061a780bb31"><td class="mdescLeft">&#160;</td><td class="mdescRight">A reference to created server pipe.  <a href="#ab7c38535dcb0b35826317061a780bb31">More...</a><br /></td></tr>
+<tr class="separator:ab7c38535dcb0b35826317061a780bb31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28b6057f910269e8901fae4ca998a036"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d5b/class_pipes_provider_1_1_server_1_1_transmission_controllers_1_1_base_server_transmission_controller.html#a28b6057f910269e8901fae4ca998a036">PipeName</a><code> [get, protected set]</code></td></tr>
+<tr class="memdesc:a28b6057f910269e8901fae4ca998a036"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of the server pipe.  <a href="#a28b6057f910269e8901fae4ca998a036">More...</a><br /></td></tr>
+<tr class="separator:a28b6057f910269e8901fae4ca998a036"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad57a0420e71e3897e7e1b67c16b995f6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d5b/class_pipes_provider_1_1_server_1_1_transmission_controllers_1_1_base_server_transmission_controller.html#ad57a0420e71e3897e7e1b67c16b995f6">Expired</a><code> [get, protected set]</code></td></tr>
-<tr class="memdesc:ad57a0420e71e3897e7e1b67c16b995f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Marker that show does current transmission is relevant. When it'll become true this pipe connection will be desconected.  <a href="#ad57a0420e71e3897e7e1b67c16b995f6">More...</a><br /></td></tr>
+<tr class="memdesc:ad57a0420e71e3897e7e1b67c16b995f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Marker that shows is the transmission is relevant. When it'll become true the pipe connection will be desconected.  <a href="#ad57a0420e71e3897e7e1b67c16b995f6">More...</a><br /></td></tr>
 <tr class="separator:ad57a0420e71e3897e7e1b67c16b995f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae159fdf4582f9419d9e3616d2aa2d37e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d5b/class_pipes_provider_1_1_server_1_1_transmission_controllers_1_1_base_server_transmission_controller.html#ae159fdf4582f9419d9e3616d2aa2d37e">Stoped</a><code> [get, protected set]</code></td></tr>
-<tr class="memdesc:ae159fdf4582f9419d9e3616d2aa2d37e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Marker that show does this transmition stoped.  <a href="#ae159fdf4582f9419d9e3616d2aa2d37e">More...</a><br /></td></tr>
+<tr class="memdesc:ae159fdf4582f9419d9e3616d2aa2d37e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Marker that shows is this transmition stoped.  <a href="#ae159fdf4582f9419d9e3616d2aa2d37e">More...</a><br /></td></tr>
 <tr class="separator:ae159fdf4582f9419d9e3616d2aa2d37e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af60aaebfbfe6988e008cedb18f32c759"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d0/d5b/class_pipes_provider_1_1_server_1_1_transmission_controllers_1_1_base_server_transmission_controller.html">BaseServerTransmissionController</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d5b/class_pipes_provider_1_1_server_1_1_transmission_controllers_1_1_base_server_transmission_controller.html#af60aaebfbfe6988e008cedb18f32c759">None</a><code> [get]</code></td></tr>
-<tr class="memdesc:af60aaebfbfe6988e008cedb18f32c759"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return instance that not contain initialized fields.  <a href="#af60aaebfbfe6988e008cedb18f32c759">More...</a><br /></td></tr>
+<tr class="memdesc:af60aaebfbfe6988e008cedb18f32c759"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an instance that not contains initialized fields.  <a href="#af60aaebfbfe6988e008cedb18f32c759">More...</a><br /></td></tr>
 <tr class="separator:af60aaebfbfe6988e008cedb18f32c759"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Container that contain meta data about server instance. </p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+<div class="textblock"><p>A controller that contains metadata about server instance and provides an API to manage it. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="acd8c41b70a2f0000c0e0b24e3b37ba07"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd8c41b70a2f0000c0e0b24e3b37ba07">&#9670;&nbsp;</a></span>BaseServerTransmissionController() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">PipesProvider.Server.TransmissionControllers.BaseServerTransmissionController.BaseServerTransmissionController </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>instiniate default server trnasmission controller. </p>
+
+</div>
+</div>
+<a id="a62325561a75a79b4b2cd1cb8575276a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62325561a75a79b4b2cd1cb8575276a6">&#9670;&nbsp;</a></span>BaseServerTransmissionController() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">PipesProvider.Server.TransmissionControllers.BaseServerTransmissionController.BaseServerTransmissionController </td>
+          <td>(</td>
+          <td class="paramtype">IAsyncResult&#160;</td>
+          <td class="paramname"><em>connectionMarker</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Action&lt; <a class="el" href="../../d0/d5b/class_pipes_provider_1_1_server_1_1_transmission_controllers_1_1_base_server_transmission_controller.html">BaseServerTransmissionController</a> &gt;&#160;</td>
+          <td class="paramname"><em>connectionCallback</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">NamedPipeServerStream&#160;</td>
+          <td class="paramname"><em>pipe</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>pipeName</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Instiniates a base transmission controller. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">connectionMarker</td><td>An async marker that can be used to control of operation.</td></tr>
+    <tr><td class="paramname">connectionCallback</td><td>A delegate that will invoked when connection became established.</td></tr>
+    <tr><td class="paramname">pipe</td><td>A named pipe stream established on the server.</td></tr>
+    <tr><td class="paramname">pipeName</td><td>A pipe's name.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a id="a6123ecf83e5ed7d39e8fe457681e3bfc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6123ecf83e5ed7d39e8fe457681e3bfc">&#9670;&nbsp;</a></span>SetExpired()</h2>
 
@@ -168,7 +245,7 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Maeking transmission as expired. Line will be remaked. </p>
+<p>Marks the transmission like expired. The line will be remaked. </p>
 
 </div>
 </div>
@@ -187,24 +264,24 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Marking transmission as expired and stoped for full exclusion from automatic server operations. </p>
+<p>Marks the transmission as expired and stoped for full exclusion from automatic server operations. </p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a632261255d8dfc87d93445180c6e2c9d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a632261255d8dfc87d93445180c6e2c9d">&#9670;&nbsp;</a></span>connectionCallback</h2>
+<a id="af1bd828667a8108b1bdaddd8dd3f5ac8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1bd828667a8108b1bdaddd8dd3f5ac8">&#9670;&nbsp;</a></span>connectionCallback</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">System.Action&lt;<a class="el" href="../../d0/d5b/class_pipes_provider_1_1_server_1_1_transmission_controllers_1_1_base_server_transmission_controller.html">BaseServerTransmissionController</a>&gt; PipesProvider.Server.TransmissionControllers.BaseServerTransmissionController.connectionCallback</td>
+          <td class="memname">Action&lt;<a class="el" href="../../d0/d5b/class_pipes_provider_1_1_server_1_1_transmission_controllers_1_1_base_server_transmission_controller.html">BaseServerTransmissionController</a>&gt; PipesProvider.Server.TransmissionControllers.BaseServerTransmissionController.connectionCallback</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Delegate that will be called when connection will be established. ServerTransmissionMeta - meta data of transmission. </p>
+<p>A delegate that will be called when connection will be established. ServerTransmissionMeta - meta data of transmission. </p>
 
 </div>
 </div>
@@ -221,38 +298,6 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Object that provide access to async connection. </p>
-
-</div>
-</div>
-<a id="a4ce9911f1ad6814d3e5c9096d9ddde57"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4ce9911f1ad6814d3e5c9096d9ddde57">&#9670;&nbsp;</a></span>pipeName</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">string PipesProvider.Server.TransmissionControllers.BaseServerTransmissionController.pipeName</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Name of this connection. </p>
-
-</div>
-</div>
-<a id="a019f764411256a751f8a438076426a47"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a019f764411256a751f8a438076426a47">&#9670;&nbsp;</a></span>pipeServer</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">NamedPipeServerStream PipesProvider.Server.TransmissionControllers.BaseServerTransmissionController.pipeServer</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Reference to created pipe. </p>
 
 </div>
 </div>
@@ -277,7 +322,31 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Marker that show does current transmission is relevant. When it'll become true this pipe connection will be desconected. </p>
+<p>Marker that shows is the transmission is relevant. When it'll become true the pipe connection will be desconected. </p>
+
+</div>
+</div>
+<a id="a8a8a55802514311f2f581c65d90fd05e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a8a55802514311f2f581c65d90fd05e">&#9670;&nbsp;</a></span>NewConnectionSearchAllowed</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool PipesProvider.Server.TransmissionControllers.BaseServerTransmissionController.NewConnectionSearchAllowed = true</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Marker that autorize new connection search. </p>
 
 </div>
 </div>
@@ -301,7 +370,55 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Return instance that not contain initialized fields. </p>
+<p>Returns an instance that not contains initialized fields. </p>
+
+</div>
+</div>
+<a id="a28b6057f910269e8901fae4ca998a036"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28b6057f910269e8901fae4ca998a036">&#9670;&nbsp;</a></span>PipeName</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string PipesProvider.Server.TransmissionControllers.BaseServerTransmissionController.PipeName</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">protected set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Name of the server pipe. </p>
+
+</div>
+</div>
+<a id="ab7c38535dcb0b35826317061a780bb31"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab7c38535dcb0b35826317061a780bb31">&#9670;&nbsp;</a></span>PipeServer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">NamedPipeServerStream PipesProvider.Server.TransmissionControllers.BaseServerTransmissionController.PipeServer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>A reference to created server pipe. </p>
 
 </div>
 </div>
@@ -325,12 +442,12 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Marker that show does this transmition stoped. </p>
+<p>Marker that shows is this transmition stoped. </p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/Work/GitHub/doloro-networking-framework/Core/PipesProvider/Server/TransmisssionControllers/BaseServerTransmissionController.cs</li>
+<li>doloro-networking-framework/Core/PipesProvider/Server/TransmisssionControllers/BaseServerTransmissionController.cs</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

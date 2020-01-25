@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Doloro Networking Framework
-   &#160;<span id="projectnumber">1.0.3</span>
+   &#160;<span id="projectnumber">1.0.0</span>
    </div>
    <div id="projectbrief">Easy | Fast | Protected</div>
   </td>
@@ -90,8 +90,6 @@ $(document).ready(function(){initNavTree('de/d2d/class_pipes_provider_1_1_securi
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="#pri-types">Private Types</a> &#124;
-<a href="#pri-static-methods">Static Private Member Functions</a> &#124;
 <a href="../../db/da2/class_pipes_provider_1_1_security_1_1_l_s_a_1_1_lsa_security_wrapper-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">PipesProvider.Security.LSA.LsaSecurityWrapper Class Reference</div>  </div>
@@ -104,6 +102,7 @@ $(document).ready(function(){initNavTree('de/d2d/class_pipes_provider_1_1_securi
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d69/struct_pipes_provider_1_1_security_1_1_l_s_a_1_1_lsa_security_wrapper_1_1_l_s_a___o_b_j_e_c_t___a_t_t_r_i_b_u_t_e_s.html">LSA_OBJECT_ATTRIBUTES</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Struct that contains data according to <a class="el" href="../../d3/de5/namespace_pipes_provider_1_1_security_1_1_l_s_a.html">LSA</a> attribute format.  <a href="../../dc/d69/struct_pipes_provider_1_1_security_1_1_l_s_a_1_1_lsa_security_wrapper_1_1_l_s_a___o_b_j_e_c_t___a_t_t_r_i_b_u_t_e_s.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dc5/struct_pipes_provider_1_1_security_1_1_l_s_a_1_1_lsa_security_wrapper_1_1_l_s_a___u_n_i_c_o_d_e___s_t_r_i_n_g.html">LSA_UNICODE_STRING</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -116,77 +115,10 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ad14aaa2cffa5be534590d0ef30810117"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d2d/class_pipes_provider_1_1_security_1_1_l_s_a_1_1_lsa_security_wrapper.html#ad14aaa2cffa5be534590d0ef30810117">RemoveAccountRights</a> (SecurityIdentifier sid, string rights)</td></tr>
 <tr class="memdesc:ad14aaa2cffa5be534590d0ef30810117"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove rights for requested user or group from <a class="el" href="../../d3/de5/namespace_pipes_provider_1_1_security_1_1_l_s_a.html">LSA</a>. <a href="https://docs.microsoft.com/en-us/windows/security/threat-protection/security-policy-settings/user-rights-assignment">https://docs.microsoft.com/en-us/windows/security/threat-protection/security-policy-settings/user-rights-assignment</a>  <a href="#ad14aaa2cffa5be534590d0ef30810117">More...</a><br /></td></tr>
 <tr class="separator:ad14aaa2cffa5be534590d0ef30810117"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-types"></a>
-Private Types</h2></td></tr>
-<tr class="memitem:ac775fcd30d378c71ec29ebe3e8efe778"><td class="memItemLeft" align="right" valign="top"><a id="ac775fcd30d378c71ec29ebe3e8efe778"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>Access</b> : int { <b>POLICY_READ</b> = 0x20006, 
-<b>POLICY_ALL_ACCESS</b> = 0x00F0FFF, 
-<b>POLICY_EXECUTE</b> = 0X20801, 
-<b>POLICY_WRITE</b> = 0X207F8
- }</td></tr>
-<tr class="separator:ac775fcd30d378c71ec29ebe3e8efe778"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-methods"></a>
-Static Private Member Functions</h2></td></tr>
-<tr class="memitem:a13ce034059c39f7a1a93d06a45b07d94"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d2d/class_pipes_provider_1_1_security_1_1_l_s_a_1_1_lsa_security_wrapper.html#a13ce034059c39f7a1a93d06a45b07d94">AccountRightsController</a> (SecurityIdentifier sid, string rights, bool allow)</td></tr>
-<tr class="memdesc:a13ce034059c39f7a1a93d06a45b07d94"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provide access and overriding of accaunt rights in <a class="el" href="../../d3/de5/namespace_pipes_provider_1_1_security_1_1_l_s_a.html">LSA</a>.  <a href="#a13ce034059c39f7a1a93d06a45b07d94">More...</a><br /></td></tr>
-<tr class="separator:a13ce034059c39f7a1a93d06a45b07d94"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Provide warped way to Add and Rmove rights for user from <a class="el" href="../../d3/de5/namespace_pipes_provider_1_1_security_1_1_l_s_a.html">LSA</a>. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a13ce034059c39f7a1a93d06a45b07d94"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a13ce034059c39f7a1a93d06a45b07d94">&#9670;&nbsp;</a></span>AccountRightsController()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static void PipesProvider.Security.LSA.LsaSecurityWrapper.AccountRightsController </td>
-          <td>(</td>
-          <td class="paramtype">SecurityIdentifier&#160;</td>
-          <td class="paramname"><em>sid</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">string&#160;</td>
-          <td class="paramname"><em>rights</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>allow</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Provide access and overriding of accaunt rights in <a class="el" href="../../d3/de5/namespace_pipes_provider_1_1_security_1_1_l_s_a.html">LSA</a>. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">sid</td><td></td></tr>
-    <tr><td class="paramname">rights</td><td></td></tr>
-    <tr><td class="paramname">allow</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
 <a id="adac61a41a0472231a990f1274834ee4d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adac61a41a0472231a990f1274834ee4d">&#9670;&nbsp;</a></span>AddAccountRights()</h2>
 
@@ -278,7 +210,7 @@ Static Private Member Functions</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/Work/GitHub/doloro-networking-framework/Core/PipesProvider/Security/LSA.cs</li>
+<li>doloro-networking-framework/Core/PipesProvider/Security/LSA.cs</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

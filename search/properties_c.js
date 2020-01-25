@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['query',['Query',['../d0/dc9/struct_pipes_provider_1_1_client_1_1_query_container.html#ada0fa04c68e6aee41d3d811d699d01aa',1,'PipesProvider::Client::QueryContainer']]],
-  ['queryhandlers',['QueryHandlers',['../df/d75/class_uniform_queries_1_1_a_p_i.html#a759098e511956b9afaaaf3ab13af336e',1,'UniformQueries::API']]]
+  ['operatingtype',['OperatingType',['../d6/d9d/class_authority_controller_1_1_queries_1_1_s_e_t___t_o_k_e_n___r_i_g_h_t_s.html#ac40f7e9c910936920a0292f8320dae72',1,'AuthorityController.Queries.SET_TOKEN_RIGHTS.OperatingType()'],['../d3/d4f/class_authority_controller_1_1_queries_1_1_u_s_e_r___b_a_n.html#adc5c6c317ba1d4dd15e131852632c00b',1,'AuthorityController.Queries.USER_BAN.OperatingType()'],['../de/d4c/class_authority_controller_1_1_queries_1_1_u_s_e_r___l_o_g_o_n.html#a62ec7a43998562389ec23c2eb15b0d31',1,'AuthorityController.Queries.USER_LOGON.OperatingType()'],['../d1/d07/class_authority_controller_1_1_queries_1_1_u_s_e_r___n_e_w.html#a62e44ef061b275827245748a566e170e',1,'AuthorityController.Queries.USER_NEW.OperatingType()'],['../db/d41/class_authority_controller_1_1_queries_1_1_u_s_e_r___u_p_d_a_t_e___p_a_s_s_w_o_r_d.html#ac87f61ec457494bc088371b764dc6e86',1,'AuthorityController.Queries.USER_UPDATE_PASSWORD.OperatingType()']]],
+  ['operatortype',['OperatorType',['../dc/da0/class_pipes_provider_1_1_security_1_1_encryption_1_1_operators_1_1_encryption_operator_type_attribute.html#a2fc42f2a5c09609fd048d8e859d923df',1,'PipesProvider::Security::Encryption::Operators::EncryptionOperatorTypeAttribute']]]
 ];

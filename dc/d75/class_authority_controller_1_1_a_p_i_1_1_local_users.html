@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Doloro Networking Framework
-   &#160;<span id="projectnumber">1.0.3</span>
+   &#160;<span id="projectnumber">1.0.0</span>
    </div>
    <div id="projectbrief">Easy | Fast | Protected</div>
   </td>
@@ -91,15 +91,13 @@ $(document).ready(function(){initNavTree('dc/d75/class_authority_controller_1_1_
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="#events">Events</a> &#124;
-<a href="#pri-static-methods">Static Private Member Functions</a> &#124;
-<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="../../db/d5b/class_authority_controller_1_1_a_p_i_1_1_local_users-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">AuthorityController.API.LocalUsers Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p><a class="el" href="../../d0/dac/namespace_authority_controller_1_1_a_p_i.html">API</a> that provide operation with authority data stored on local machine out of UniformDataOperator storage.  
+<p>An <a class="el" href="../../d0/dac/namespace_authority_controller_1_1_a_p_i.html">API</a> that provides operation with authority data stored on a local machine out of <code>UniformDataOperator</code> storage.  
  <a href="../../dc/d75/class_authority_controller_1_1_a_p_i_1_1_local_users.html#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
@@ -149,36 +147,18 @@ Properties</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="events"></a>
 Events</h2></td></tr>
-<tr class="memitem:a54370dd6dd474a14106891cd6d0beaaf"><td class="memItemLeft" align="right" valign="top">static System.Action&lt; string, int, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d75/class_authority_controller_1_1_a_p_i_1_1_local_users.html#a54370dd6dd474a14106891cd6d0beaaf">DirectoryLoadingFinished</a></td></tr>
-<tr class="memdesc:a54370dd6dd474a14106891cd6d0beaaf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Event that will be called when loading of users from directory will be finished. Int - count of loaded files. Int - count of corupted files.  <a href="#a54370dd6dd474a14106891cd6d0beaaf">More...</a><br /></td></tr>
-<tr class="separator:a54370dd6dd474a14106891cd6d0beaaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af973c97a05818a9e360aadca02da8834"><td class="memItemLeft" align="right" valign="top">static System.Action&lt; <a class="el" href="../../df/db1/class_authority_controller_1_1_data_1_1_personal_1_1_user.html">User</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d75/class_authority_controller_1_1_a_p_i_1_1_local_users.html#af973c97a05818a9e360aadca02da8834">UserProfileStored</a></td></tr>
-<tr class="memdesc:af973c97a05818a9e360aadca02da8834"><td class="mdescLeft">&#160;</td><td class="mdescRight">Event that will be called when profile will be setted to storage.  <a href="#af973c97a05818a9e360aadca02da8834">More...</a><br /></td></tr>
-<tr class="separator:af973c97a05818a9e360aadca02da8834"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af05c837a76c7b94631884b965e5cc75d"><td class="memItemLeft" align="right" valign="top">static System.Action&lt; <a class="el" href="../../df/db1/class_authority_controller_1_1_data_1_1_personal_1_1_user.html">User</a>, string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d75/class_authority_controller_1_1_a_p_i_1_1_local_users.html#af05c837a76c7b94631884b965e5cc75d">UserProfileNotStored</a></td></tr>
-<tr class="memdesc:af05c837a76c7b94631884b965e5cc75d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Event that will be called when profile will be fail adding to storage.  <a href="#af05c837a76c7b94631884b965e5cc75d">More...</a><br /></td></tr>
-<tr class="separator:af05c837a76c7b94631884b965e5cc75d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-methods"></a>
-Static Private Member Functions</h2></td></tr>
-<tr class="memitem:a67fe99b2249aacec99b18538ee86bec8"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d75/class_authority_controller_1_1_a_p_i_1_1_local_users.html#a67fe99b2249aacec99b18538ee86bec8">GetUserFileName</a> (<a class="el" href="../../df/db1/class_authority_controller_1_1_data_1_1_personal_1_1_user.html">User</a> user)</td></tr>
-<tr class="memdesc:a67fe99b2249aacec99b18538ee86bec8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return unified name based on user's profile.  <a href="#a67fe99b2249aacec99b18538ee86bec8">More...</a><br /></td></tr>
-<tr class="separator:a67fe99b2249aacec99b18538ee86bec8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
-Static Private Attributes</h2></td></tr>
-<tr class="memitem:aaae0c59c3cdaf7fcde412e10326059f1"><td class="memItemLeft" align="right" valign="top">static readonly Hashtable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d75/class_authority_controller_1_1_a_p_i_1_1_local_users.html#aaae0c59c3cdaf7fcde412e10326059f1">UsersByLogin</a> = new Hashtable()</td></tr>
-<tr class="memdesc:aaae0c59c3cdaf7fcde412e10326059f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Table that provide aaccess to user data by login.  <a href="#aaae0c59c3cdaf7fcde412e10326059f1">More...</a><br /></td></tr>
-<tr class="separator:aaae0c59c3cdaf7fcde412e10326059f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7ccc07a39b84ca1871e981bf6f8729ba"><td class="memItemLeft" align="right" valign="top">static readonly Hashtable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d75/class_authority_controller_1_1_a_p_i_1_1_local_users.html#a7ccc07a39b84ca1871e981bf6f8729ba">UsersById</a> = new Hashtable()</td></tr>
-<tr class="memdesc:a7ccc07a39b84ca1871e981bf6f8729ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Table that provide access to user by unique ID.  <a href="#a7ccc07a39b84ca1871e981bf6f8729ba">More...</a><br /></td></tr>
-<tr class="separator:a7ccc07a39b84ca1871e981bf6f8729ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6d00e6327f737d23cfdfff3f13ecaec3"><td class="memItemLeft" align="right" valign="top">static readonly HashSet&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d75/class_authority_controller_1_1_a_p_i_1_1_local_users.html#a6d00e6327f737d23cfdfff3f13ecaec3">LoadingLockedDirectories</a> = new HashSet&lt;string&gt;()</td></tr>
-<tr class="memdesc:a6d00e6327f737d23cfdfff3f13ecaec3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contains directories that has users loading process and blocked for new ones.  <a href="#a6d00e6327f737d23cfdfff3f13ecaec3">More...</a><br /></td></tr>
-<tr class="separator:a6d00e6327f737d23cfdfff3f13ecaec3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28688b616fc2ce0a3615aea9b43d30b5"><td class="memItemLeft" align="right" valign="top">static Action&lt; string, int, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d75/class_authority_controller_1_1_a_p_i_1_1_local_users.html#a28688b616fc2ce0a3615aea9b43d30b5">DirectoryLoadingFinished</a></td></tr>
+<tr class="memdesc:a28688b616fc2ce0a3615aea9b43d30b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Event that will be called when loading of users from directory will be finished. Int - count of loaded files. Int - count of corupted files.  <a href="#a28688b616fc2ce0a3615aea9b43d30b5">More...</a><br /></td></tr>
+<tr class="separator:a28688b616fc2ce0a3615aea9b43d30b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad577d24b128de0352abcabeb6e23ac73"><td class="memItemLeft" align="right" valign="top">static Action&lt; <a class="el" href="../../df/db1/class_authority_controller_1_1_data_1_1_personal_1_1_user.html">User</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d75/class_authority_controller_1_1_a_p_i_1_1_local_users.html#ad577d24b128de0352abcabeb6e23ac73">UserProfileStored</a></td></tr>
+<tr class="memdesc:ad577d24b128de0352abcabeb6e23ac73"><td class="mdescLeft">&#160;</td><td class="mdescRight">Event that will be called when profile will be setted to storage.  <a href="#ad577d24b128de0352abcabeb6e23ac73">More...</a><br /></td></tr>
+<tr class="separator:ad577d24b128de0352abcabeb6e23ac73"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1338e75e60c8cd140c826e0d7e2d6672"><td class="memItemLeft" align="right" valign="top">static Action&lt; <a class="el" href="../../df/db1/class_authority_controller_1_1_data_1_1_personal_1_1_user.html">User</a>, string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d75/class_authority_controller_1_1_a_p_i_1_1_local_users.html#a1338e75e60c8cd140c826e0d7e2d6672">UserProfileNotStored</a></td></tr>
+<tr class="memdesc:a1338e75e60c8cd140c826e0d7e2d6672"><td class="mdescLeft">&#160;</td><td class="mdescRight">Event that will be called when profile will be fail adding to storage.  <a href="#a1338e75e60c8cd140c826e0d7e2d6672">More...</a><br /></td></tr>
+<tr class="separator:a1338e75e60c8cd140c826e0d7e2d6672"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p><a class="el" href="../../d0/dac/namespace_authority_controller_1_1_a_p_i.html">API</a> that provide operation with authority data stored on local machine out of UniformDataOperator storage. </p>
+<div class="textblock"><p>An <a class="el" href="../../d0/dac/namespace_authority_controller_1_1_a_p_i.html">API</a> that provides operation with authority data stored on a local machine out of <code>UniformDataOperator</code> storage. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a2090f668f0dcc303c254b0bdac6c0701"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2090f668f0dcc303c254b0bdac6c0701">&#9670;&nbsp;</a></span>AddToLoadedData()</h2>
@@ -266,41 +246,6 @@ Static Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Looking for free id. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">user</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
-
-</div>
-</div>
-<a id="a67fe99b2249aacec99b18538ee86bec8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a67fe99b2249aacec99b18538ee86bec8">&#9670;&nbsp;</a></span>GetUserFileName()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static string AuthorityController.API.LocalUsers.GetUserFileName </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../df/db1/class_authority_controller_1_1_data_1_1_personal_1_1_user.html">User</a>&#160;</td>
-          <td class="paramname"><em>user</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Return unified name based on user's profile. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">user</td><td></td></tr>
@@ -693,79 +638,6 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="a6d00e6327f737d23cfdfff3f13ecaec3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6d00e6327f737d23cfdfff3f13ecaec3">&#9670;&nbsp;</a></span>LoadingLockedDirectories</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">readonly HashSet&lt;string&gt; AuthorityController.API.LocalUsers.LoadingLockedDirectories = new HashSet&lt;string&gt;()</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Contains directories that has users loading process and blocked for new ones. </p>
-
-</div>
-</div>
-<a id="a7ccc07a39b84ca1871e981bf6f8729ba"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7ccc07a39b84ca1871e981bf6f8729ba">&#9670;&nbsp;</a></span>UsersById</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">readonly Hashtable AuthorityController.API.LocalUsers.UsersById = new Hashtable()</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Table that provide access to user by unique ID. </p>
-
-</div>
-</div>
-<a id="aaae0c59c3cdaf7fcde412e10326059f1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaae0c59c3cdaf7fcde412e10326059f1">&#9670;&nbsp;</a></span>UsersByLogin</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">readonly Hashtable AuthorityController.API.LocalUsers.UsersByLogin = new Hashtable()</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Table that provide aaccess to user data by login. </p>
-
-</div>
-</div>
 <h2 class="groupheader">Property Documentation</h2>
 <a id="afdfecc5fc12d8f2a862ddc030577a064"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afdfecc5fc12d8f2a862ddc030577a064">&#9670;&nbsp;</a></span>HasAsyncLoadings</h2>
@@ -792,8 +664,8 @@ Static Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Event Documentation</h2>
-<a id="a54370dd6dd474a14106891cd6d0beaaf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a54370dd6dd474a14106891cd6d0beaaf">&#9670;&nbsp;</a></span>DirectoryLoadingFinished</h2>
+<a id="a28688b616fc2ce0a3615aea9b43d30b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28688b616fc2ce0a3615aea9b43d30b5">&#9670;&nbsp;</a></span>DirectoryLoadingFinished</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -802,7 +674,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">System.Action&lt;string, int, int&gt; AuthorityController.API.LocalUsers.DirectoryLoadingFinished</td>
+          <td class="memname">Action&lt;string, int, int&gt; AuthorityController.API.LocalUsers.DirectoryLoadingFinished</td>
         </tr>
       </table>
   </td>
@@ -816,8 +688,8 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="af05c837a76c7b94631884b965e5cc75d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af05c837a76c7b94631884b965e5cc75d">&#9670;&nbsp;</a></span>UserProfileNotStored</h2>
+<a id="a1338e75e60c8cd140c826e0d7e2d6672"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1338e75e60c8cd140c826e0d7e2d6672">&#9670;&nbsp;</a></span>UserProfileNotStored</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -826,7 +698,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">System.Action&lt;<a class="el" href="../../df/db1/class_authority_controller_1_1_data_1_1_personal_1_1_user.html">User</a>, string&gt; AuthorityController.API.LocalUsers.UserProfileNotStored</td>
+          <td class="memname">Action&lt;<a class="el" href="../../df/db1/class_authority_controller_1_1_data_1_1_personal_1_1_user.html">User</a>, string&gt; AuthorityController.API.LocalUsers.UserProfileNotStored</td>
         </tr>
       </table>
   </td>
@@ -840,8 +712,8 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="af973c97a05818a9e360aadca02da8834"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af973c97a05818a9e360aadca02da8834">&#9670;&nbsp;</a></span>UserProfileStored</h2>
+<a id="ad577d24b128de0352abcabeb6e23ac73"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad577d24b128de0352abcabeb6e23ac73">&#9670;&nbsp;</a></span>UserProfileStored</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -850,7 +722,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">System.Action&lt;<a class="el" href="../../df/db1/class_authority_controller_1_1_data_1_1_personal_1_1_user.html">User</a>&gt; AuthorityController.API.LocalUsers.UserProfileStored</td>
+          <td class="memname">Action&lt;<a class="el" href="../../df/db1/class_authority_controller_1_1_data_1_1_personal_1_1_user.html">User</a>&gt; AuthorityController.API.LocalUsers.UserProfileStored</td>
         </tr>
       </table>
   </td>
@@ -865,7 +737,7 @@ Static Private Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/Work/GitHub/doloro-networking-framework/Addons/AuthorityController/API/LocalUsers.cs</li>
+<li>doloro-networking-framework/Addons/AuthorityController/API/LocalUsers.cs</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
